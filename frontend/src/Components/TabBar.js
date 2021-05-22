@@ -25,6 +25,7 @@ export const TabBar = () => {
         color: "#808080",
         width: "96vw",
         margin: "0 4vw",
+        boxShadow: "0 6px 11px -9px #000000",
       }}
       fluid
     >
