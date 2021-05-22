@@ -48,12 +48,30 @@ export const Header = () => {
             >
               {" "}
               {/* will be visible for widths except lg and xs*/}
-              ...
+              <svg
+                stroke="currentColor"
+                fill="currentColor"
+                strokeWidth={0}
+                viewBox="0 0 16 16"
+                height="1em"
+                width="1em"
+              >
+                <path d="M4 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm5 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm5 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+              </svg>{" "}
             </Col>
             <Col xs={1} className="d-block d-sm-none">
               {" "}
               {/* will be visible for widths xs only*/}
-              ...
+              <svg
+                stroke="currentColor"
+                fill="currentColor"
+                strokeWidth={0}
+                viewBox="0 0 16 16"
+                height="1em"
+                width="1em"
+              >
+                <path d="M4 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm5 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm5 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+              </svg>
             </Col>
           </Row>
         </Col>

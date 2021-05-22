@@ -12,11 +12,27 @@ export const Tab = ({ title, logo }) => {
         margin: 0,
       }}
     >
-      <Row lg="auto">
-        <Col lg="auto" style={{ color: "yellow" }}>
+      <Row lg="auto" md="auto" sm="auto" xs="auto">
+        <Col
+          lg="auto"
+          md="auto"
+          sm="auto"
+          xs="auto"
+          style={{ color: "yellow" }}
+          className="d-flex justify-content-center pr-1"
+        >
           {logo}
         </Col>
-        <Col lg="auto">{title}</Col>
+        <Col
+          lg="auto"
+          md="auto"
+          sm="auto"
+          xs="auto"
+          className="d-flex justify-content-center pr-4 pl-1"
+          style={{ fontSize: 12 }}
+        >
+          {title}
+        </Col>
       </Row>
     </Container>
   );
