@@ -23,9 +23,10 @@ export const TabBar = () => {
       style={{
         background: "#2A2A2C",
         color: "#808080",
-        width: "96vw",
-        margin: "0 4vw",
         boxShadow: "0 6px 11px -9px #000000",
+        position: "fixed",
+        top: "26px",
+        left: "4px",
       }}
       fluid
     >
