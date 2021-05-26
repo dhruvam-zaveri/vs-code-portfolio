@@ -27,7 +27,6 @@ export const TabBar = () => {
         boxShadow: "0 6px 11px -9px #000000",
         position: "fixed",
         top: "26px",
-        left: "60px",
       }}
       fluid
     >
