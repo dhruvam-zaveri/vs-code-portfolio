@@ -4,7 +4,13 @@ import { Container, Row, Col, Image } from "react-bootstrap";
 export const Header = () => {
   return (
     <Container
-      style={{ background: "#3C3C3C", color: "#B2B2B2", fontSize: "12px" }}
+      style={{
+        background: "#3C3C3C",
+        color: "#B2B2B2",
+        fontSize: "12px",
+        width: "100vw",
+        position: "fixed",
+      }}
       fluid
     >
       <Row lg={5} md={5} sm={5} xs={4}>

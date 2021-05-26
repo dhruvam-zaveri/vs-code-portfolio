@@ -8,8 +8,12 @@ const App = () => {
   return (
     <>
       <Header />
-      <TabBar />
-      <SideBar />
+      <Row>
+        <Col lg="auto">
+          <SideBar />
+        </Col>
+        <Col>{/* <TabBar /> */}</Col>
+      </Row>
     </>
   );
 };

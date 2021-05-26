@@ -20,20 +20,23 @@ export const TabBar = () => {
 
   return (
     <Container
+      id="TabBar"
       style={{
         background: "#2A2A2C",
         color: "#808080",
         boxShadow: "0 6px 11px -9px #000000",
         position: "fixed",
         top: "26px",
-        left: "4px",
+        left: "60px",
       }}
       fluid
     >
       <Row>
-        <Col lg="auto" md="auto" sm="auto" xs="auto" className="px-0">
-          <Tab title="Home.js" logo={jsLogo} />
-        </Col>
+        <div id="addTab">
+          <Col lg="auto" md="auto" sm="auto" xs="auto" className="px-0">
+            <Tab title="Home.js" logo={jsLogo} />
+          </Col>
+        </div>
         <Col>
           <Row className="d-flex justify-content-end">
             <Col lg="auto" md="auto" sm="auto" xs="auto" className="py-1">
