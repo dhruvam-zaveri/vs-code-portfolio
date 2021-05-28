@@ -49,6 +49,7 @@ export const TabBar = () => {
       fluid
     >
       <Row>
+        <Col sm="auto" xs="auto" className="pr-4 d-block d-sm-none"></Col>
         <Col
           lg="auto"
           md="auto"
