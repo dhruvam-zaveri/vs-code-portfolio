@@ -19,7 +19,6 @@ export const SideBar = () => {
           top: "26px",
           left: "0px",
           right: "0px",
-          bottom: "0px",
         }}
       >
         <Nav.Item className="pl-3 py-3" style={{ color: "#FFFFFF" }}>

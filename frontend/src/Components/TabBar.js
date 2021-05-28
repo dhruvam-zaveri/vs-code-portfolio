@@ -1,8 +1,26 @@
-import React from "react";
+import React, { useLayoutEffect, useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Tab from "./Tab.js";
 
+function useWindowSize() {
+  const [size, setSize] = useState(0);
+
+  useLayoutEffect(() => {
+    function updateSize() {
+      setSize([window.innerWidth]);
+    }
+
+    window.addEventListener("resize", updateSize);
+    updateSize();
+
+    return () => window.removeEventListener("resize", updateSize);
+  }, []);
+  return size;
+}
+
 export const TabBar = () => {
+  const width = useWindowSize();
+
   const jsLogo = (
     <svg
       stroke="currentColor"
@@ -20,10 +38,10 @@ export const TabBar = () => {
 
   return (
     <Container
-      id="TabBar"
       style={{
         background: "#2A2A2C",
         color: "#808080",
+        width: { width },
         boxShadow: "0 6px 11px -9px #000000",
         position: "fixed",
         top: "26px",
@@ -31,11 +49,38 @@ export const TabBar = () => {
       fluid
     >
       <Row>
-        <div id="addTab">
-          <Col lg="auto" md="auto" sm="auto" xs="auto" className="px-0">
-            <Tab title="Home.js" logo={jsLogo} />
-          </Col>
-        </div>
+        <Col
+          lg="auto"
+          md="auto"
+          sm="auto"
+          xs="auto"
+          className="px-5 d-none d-sm-block"
+        ></Col>
+
+        <Col
+          lg="auto"
+          md="auto"
+          sm="auto"
+          xs="auto"
+          className="pr-5 d-none d-sm-block"
+        ></Col>
+        <Col
+          lg="auto"
+          md="auto"
+          sm="auto"
+          xs="auto"
+          className="pr-5 d-none d-md-block"
+        ></Col>
+        <Col
+          lg="auto"
+          md="auto"
+          sm="auto"
+          xs="auto"
+          className="px-0 pl-3"
+          style={{ marginLeft: "60px" }}
+        >
+          <Tab title="Home.js" logo={jsLogo} />
+        </Col>
         <Col>
           <Row className="d-flex justify-content-end">
             <Col lg="auto" md="auto" sm="auto" xs="auto" className="py-1">
