@@ -35,12 +35,8 @@ export const FilesBar = () => {
     >
       <Container style={{ padding: 0 }}>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse
-          className="d-flex flex-column"
-          expand="sm"
-          id="basic-navbar-nav"
-        >
-          <Nav className="me-auto d-none d-sm-block">
+        <Navbar.Collapse expand="sm" id="basic-navbar-nav">
+          <Nav className="d-flex flex-column">
             <Row
               className="py-3 pl-3"
               style={{
@@ -61,7 +57,7 @@ export const FilesBar = () => {
                   width="1em"
                 >
                   <path d="M4 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm5 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm5 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
-                </svg>{" "}
+                </svg>
               </Col>
             </Row>
             <Container
@@ -97,8 +93,12 @@ export const FilesBar = () => {
                 DHRUVAM ZAVERI
               </Navbar.Brand>
             </Container>
-            <File title="Home.js" logo={jsLogo} link="/" />
-            <File title="AboutMe.js" logo={jsLogo} link="/about" />
+            <Nav.Link href="/" className="p-0">
+              <File title="Home.js" logo={jsLogo} />
+            </Nav.Link>
+            <Nav.Link href="/about" className="p-0">
+              <File title="AboutMe.js" logo={jsLogo} />
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
