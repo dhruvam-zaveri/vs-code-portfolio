@@ -11,13 +11,15 @@ import AboutMeScreen from "./Screens/AboutMeScreen.js";
 const App = () => {
   return (
     <Router>
-      <Header />
-      <TabBar />
-      <SideBar />
-      <FilesBar />
-      <Container>
-        <Route path="/" component={HomeScreen} exact />
-        <Route path="/about" component={AboutMeScreen} exact />
+      <Container className="p-0 m-0">
+        <Container>
+          <Route path="/" component={HomeScreen} exact />
+          <Route path="/about" component={AboutMeScreen} exact />
+        </Container>
+        <Header />
+        <TabBar />
+        <SideBar />
+        <FilesBar />
       </Container>
     </Router>
   );

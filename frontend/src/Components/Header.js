@@ -10,6 +10,7 @@ export const Header = () => {
         fontSize: "12px",
         width: "100vw",
         position: "fixed",
+        top: 0,
       }}
       fluid
     >
