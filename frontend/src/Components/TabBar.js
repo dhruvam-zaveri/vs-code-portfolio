@@ -31,7 +31,6 @@ export const TabBar = () => {
       fluid
     >
       <Row>
-        <Col sm="auto" className="pr-4 d-block d-sm-none"></Col>
         <HorizontalPadding />
         <Col lg="auto" md="auto" sm="auto" xs="auto">
           <Tab title="Home.js" logo={jsLogo} />
