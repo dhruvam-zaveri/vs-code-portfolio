@@ -47,7 +47,7 @@ export const FilesBar = () => {
             >
               <Col className="pr-5">EXPLORER</Col>
               <Col className="pr-5 d-none d-md-block"></Col>
-              <Col className="pr-5">
+              <Col xs="auto" className="pr-5">
                 <svg
                   stroke="currentColor"
                   fill="currentColor"
