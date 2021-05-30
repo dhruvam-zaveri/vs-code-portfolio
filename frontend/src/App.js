@@ -11,8 +11,8 @@ import AboutMeScreen from "./Screens/AboutMeScreen.js";
 const App = () => {
   return (
     <Router>
-      <React.StrictMode>
-        <Container className="p-0 m-0">
+      <Container className="p-0 m-0">
+        <React.StrictMode>
           <Container>
             <Route path="/" component={HomeScreen} exact />
             <Route path="/about" component={AboutMeScreen} exact />
@@ -20,9 +20,9 @@ const App = () => {
           <Header />
           <TabBar />
           <SideBar />
-          <FilesBar />
-        </Container>
-      </React.StrictMode>
+        </React.StrictMode>
+        <FilesBar />
+      </Container>
     </Router>
   );
 };
