@@ -8,14 +8,14 @@ import FilesBar from "./Components/FilesBar.js";
 import HomeScreen from "./Screens/HomeScreen.js";
 import AboutMeScreen from "./Screens/AboutMeScreen.js";
 
-const App = () => {
+const App = (props) => {
   return (
     <Router>
       <Container className="p-0 m-0">
         <React.StrictMode>
           <Container>
             <Route path="/" component={HomeScreen} exact />
-            <Route path="/about" component={AboutMeScreen} exact />
+            <Route path="/aboutme" component={AboutMeScreen} exact />
           </Container>
           <Header />
           <TabBar />
