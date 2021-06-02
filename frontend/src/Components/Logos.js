@@ -21,7 +21,7 @@ export const PyLogo = () => {
   return (
     <svg
       stroke="currentColor"
-      fill="blue"
+      fill="#336D9E"
       strokeWidth="0"
       viewBox="0 0 24 24"
       role="img"
@@ -39,7 +39,7 @@ export const HTMLLogo = () => {
   return (
     <svg
       stroke="currentColor"
-      fill="red"
+      fill="#F25F2D"
       strokeWidth="0"
       viewBox="0 0 1024 1024"
       height="1.25em"
@@ -55,7 +55,7 @@ export const CSSLogo = () => {
   return (
     <svg
       stroke="currentColor"
-      fill="lightblue"
+      fill="#2DA3CC"
       strokeWidth="0"
       viewBox="0 0 512 512"
       height="1.25em"
@@ -71,7 +71,7 @@ export const DartLogo = () => {
   return (
     <svg
       stroke="currentColor"
-      fill="lightblue"
+      fill="#045697"
       strokeWidth="0"
       role="img"
       viewBox="0 0 24 24"
