@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar, Row, Col, Container, Nav } from "react-bootstrap";
 import File from "./File.js";
-import { JsLogo, PyLogo } from "./Logos.js";
+import { JsLogo, PyLogo, HTMLLogo, CSSLogo, DartLogo } from "./Logos.js";
 
 export const FilesBar = () => {
   return (
@@ -83,6 +83,15 @@ export const FilesBar = () => {
             </Nav.Link>
             <Nav.Link href="/aboutme" className="p-0">
               <File title="AboutMe.py" logo={<PyLogo />} />
+            </Nav.Link>
+            <Nav.Link href="/resume" className="p-0">
+              <File title="Resume.html" logo={<HTMLLogo />} />
+            </Nav.Link>
+            <Nav.Link href="/portfolio" className="p-0">
+              <File title="Portfolio.css" logo={<CSSLogo />} />
+            </Nav.Link>
+            <Nav.Link href="/contactme" className="p-0">
+              <File title="ContactMe.dart" logo={<DartLogo />} />
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

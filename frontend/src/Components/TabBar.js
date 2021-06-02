@@ -3,7 +3,7 @@ import { useLocation } from "react-router-dom";
 import { Container, Row, Col } from "react-bootstrap";
 import HorizontalPadding from "./HorizontalPadding.js";
 import Tab from "./Tab.js";
-import { JsLogo, PyLogo } from "./Logos.js";
+import { JsLogo, PyLogo, HTMLLogo, CSSLogo, DartLogo } from "./Logos.js";
 
 export const TabBar = () => {
   const { pathname } = useLocation();
@@ -17,8 +17,20 @@ export const TabBar = () => {
       logo = <PyLogo />;
       break;
 
-    // case "":
-    //   break;
+    case "/resume":
+      title = "Resume.html";
+      logo = <HTMLLogo />;
+      break;
+
+    case "/portfolio":
+      title = "Portfolio.css";
+      logo = <CSSLogo />;
+      break;
+
+    case "/contactme":
+      title = "ContactMe.dart";
+      logo = <DartLogo />;
+      break;
 
     default:
       title = "Home.js";
