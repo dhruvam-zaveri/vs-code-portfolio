@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar, Row, Col, Container, Nav } from "react-bootstrap";
 import File from "./File.js";
-import { JsLogo, PyLogo, HTMLLogo, CSSLogo, DartLogo } from "./Logos.js";
+import { JsLogo, PyLogo, HTMLLogo, CSSLogo, JSONLogo } from "./Logos.js";
 
 export const FilesBar = () => {
   return (
@@ -31,7 +31,7 @@ export const FilesBar = () => {
               }}
             >
               <Col className="pr-5">EXPLORER</Col>
-              <Col className="pr-5 d-none d-md-block"></Col>
+              <Col className="pr-5 d-none d-lg-block"></Col>
               <Col xs="auto" className="pr-5">
                 <svg
                   stroke="currentColor"
@@ -91,7 +91,7 @@ export const FilesBar = () => {
               <File title="Portfolio.css" logo={<CSSLogo />} />
             </Nav.Link>
             <Nav.Link href="/contactme" className="p-0">
-              <File title="ContactMe.dart" logo={<DartLogo />} />
+              <File title="ContactMe.json" logo={<JSONLogo />} />
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

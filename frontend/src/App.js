@@ -11,24 +11,24 @@ import ResumeScreen from "./Screens/ResumeScreen.js";
 import PortfolioScreen from "./Screens/PortfolioScreen.js";
 import ContactMeScreen from "./Screens/ContactMeScreen.js";
 
-const App = (props) => {
+const App = () => {
   return (
     <Router>
-      <Container className="p-0 m-0">
-        <React.StrictMode>
-          <Container>
-            <Route path="/" component={HomeScreen} exact />
-            <Route path="/aboutme" component={AboutMeScreen} exact />
-            <Route path="/resume" component={ResumeScreen} exact />
-            <Route path="/portfolio" component={PortfolioScreen} exact />
-            <Route path="/contactme" component={ContactMeScreen} exact />
-          </Container>
-          <Header />
-          <TabBar />
-          <SideBar />
-        </React.StrictMode>
+      {/* <Container className="p-0 m-0"> */}
+      <React.StrictMode>
+        <Container>
+          <Route path="/" component={HomeScreen} exact />
+          <Route path="/aboutme" component={AboutMeScreen} exact />
+          <Route path="/resume" component={ResumeScreen} exact />
+          <Route path="/portfolio" component={PortfolioScreen} exact />
+          <Route path="/contactme" component={ContactMeScreen} exact />
+        </Container>
+        <Header />
+        <TabBar />
+        <SideBar />
         <FilesBar />
-      </Container>
+      </React.StrictMode>
+      {/* </Container> */}
     </Router>
   );
 };

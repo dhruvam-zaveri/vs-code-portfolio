@@ -22,7 +22,7 @@ const HorizontalPadding = () => {
         lg="auto"
         md="auto"
         sm="auto"
-        className="pr-5 d-none d-md-block"
+        className="pr-5 d-none d-lg-block"
       ></Col>
       <Col
         lg="auto"

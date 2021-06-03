@@ -3,38 +3,38 @@ import { useLocation } from "react-router-dom";
 import { Container, Row, Col } from "react-bootstrap";
 import HorizontalPadding from "./HorizontalPadding.js";
 import Tab from "./Tab.js";
-import { JsLogo, PyLogo, HTMLLogo, CSSLogo, DartLogo } from "./Logos.js";
+import { JsLogo, PyLogo, HTMLLogo, CSSLogo, JSONLogo } from "./Logos.js";
 
 export const TabBar = () => {
   const { pathname } = useLocation();
 
-  var title;
-  var logo;
+  var _title;
+  var _logo;
 
   switch (pathname) {
     case "/aboutme":
-      title = "AboutMe.py";
-      logo = <PyLogo />;
+      _title = "AboutMe.py";
+      _logo = <PyLogo />;
       break;
 
     case "/resume":
-      title = "Resume.html";
-      logo = <HTMLLogo />;
+      _title = "Resume.html";
+      _logo = <HTMLLogo />;
       break;
 
     case "/portfolio":
-      title = "Portfolio.css";
-      logo = <CSSLogo />;
+      _title = "Portfolio.css";
+      _logo = <CSSLogo />;
       break;
 
     case "/contactme":
-      title = "ContactMe.dart";
-      logo = <DartLogo />;
+      _title = "ContactMe.json";
+      _logo = <JSONLogo />;
       break;
 
     default:
-      title = "Home.js";
-      logo = <JsLogo />;
+      _title = "Home.js";
+      _logo = <JsLogo />;
   }
 
   return (
@@ -51,7 +51,7 @@ export const TabBar = () => {
       <Row>
         <HorizontalPadding />
         <Col lg="auto" md="auto" sm="auto" xs="auto">
-          <Tab title={title} logo={logo} />
+          <Tab title={_title} logo={_logo} />
         </Col>
         <Col>
           <Row className="d-flex justify-content-end">
