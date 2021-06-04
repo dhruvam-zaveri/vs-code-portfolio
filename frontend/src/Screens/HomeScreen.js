@@ -1,8 +1,6 @@
 import React from "react";
-import Typewriter from "typewriter-effect";
 import { Row, Col, Container } from "react-bootstrap";
 import HorizontalPadding from "../Components/HorizontalPadding.js";
-// import { ReactComponent as SVGImage } from "../Components/SVG/Coding.svg";
 import { ReactComponent as SVGImage } from "../Components/SVG/Hello.svg";
 
 export const HomeScreen = () => {
@@ -17,34 +15,29 @@ export const HomeScreen = () => {
         </Col>
 
         <Col>
-          {/* <Container
-          className="d-flex justify-content-center"
-          style={{ fontSize: 36, fontWeight: 500 }} 
-        >
-          Home
-        </Contai</Container>ner> */}
           <Row>
             <Col
               className="d-flex align-items-center"
-              xxl={6}
-              lg={6}
+              xl={5}
+              lg={5}
               md={12}
               sm={12}
             >
               <SVGImage height="40vh" width="30vw" />
             </Col>
+            <Col xl={1} lg={1} className="d-none d-md-block"></Col>
             <Col
               className="d-flex align-items-center"
-              xxl={6}
+              xl={6}
               lg={6}
               md={12}
               sm={12}
             >
               <Container className="d-block">
-                <Row style={{ fontWeight: 700, fontSize: 40 }}>
+                <Row style={{ fontWeight: 700, fontSize: 36 }}>
                   Hello there! 👋
                 </Row>
-                <Row style={{ fontWeight: 500, fontSize: 32 }}>
+                <Row style={{ fontWeight: 500, fontSize: 28 }}>
                   I'm Dhruvam Zaveri
                 </Row>
                 <Row style={{ fontWeight: 300, fontSize: 18 }}>
@@ -60,3 +53,6 @@ export const HomeScreen = () => {
 };
 
 export default HomeScreen;
+
+// xl done
+// lg done
