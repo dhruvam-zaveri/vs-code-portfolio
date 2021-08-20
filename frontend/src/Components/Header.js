@@ -8,7 +8,7 @@ export const Header = () => {
         background: "#3C3C3C",
         color: "#B2B2B2",
         fontSize: "12px",
-        width: "100vw",
+        // width: "100vw",
         position: "fixed",
         top: 0,
       }}
@@ -98,6 +98,6 @@ export default Header;
   xl - infinity to 1200 (done)
   lg - 1199 to 992 (done)
   md - 991 to 768 (done)
-  sm - 768 to 576 (done)
+  sm - 767 to 576 (done)
   xs - 575 to least 
 */

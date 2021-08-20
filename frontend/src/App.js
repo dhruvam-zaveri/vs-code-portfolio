@@ -10,13 +10,14 @@ import AboutMeScreen from "./Screens/AboutMeScreen.js";
 import ResumeScreen from "./Screens/ResumeScreen.js";
 import PortfolioScreen from "./Screens/PortfolioScreen.js";
 import ContactMeScreen from "./Screens/ContactMeScreen.js";
+import "./index.css";
 
 const App = () => {
   return (
     <Router>
       {/* <Container className="p-0 m-0"> */}
       <React.StrictMode>
-        <Container>
+        <Container style={{ padding: "0 0 0 60px" }}>
           <Route path="/" component={HomeScreen} exact />
           <Route path="/aboutme" component={AboutMeScreen} exact />
           <Route path="/resume" component={ResumeScreen} exact />

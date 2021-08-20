@@ -2,20 +2,21 @@ import React from "react";
 import { Navbar, Row, Col, Container, Nav } from "react-bootstrap";
 import File from "./File.js";
 import { JsLogo, PyLogo, HTMLLogo, CSSLogo, JSONLogo } from "./Logos.js";
+import "../index.css";
 
 export const FilesBar = () => {
   return (
     <Navbar
       collapseOnSelect
       expand="sm"
-      className="d-flex flex-column"
+      className="d-flex flex-column files_bar_menu"
       style={{
         padding: 0,
-        height: "100vh",
         background: "#2A2A2C",
         position: "fixed",
         top: "26px",
         left: "60px",
+        boxShadow: "0 6px 11px -9px #000000",
       }}
     >
       <Container style={{ padding: 0 }}>
@@ -82,7 +83,7 @@ export const FilesBar = () => {
               <File title="Home.js" logo={<JsLogo />} />
             </Nav.Link>
             <Nav.Link href="/aboutme" className="p-0">
-              <File title="AboutMe.py" logo={<PyLogo />} />
+              <File title="About_Me.py" logo={<PyLogo />} />
             </Nav.Link>
             <Nav.Link href="/resume" className="p-0">
               <File title="Resume.html" logo={<HTMLLogo />} />
@@ -91,7 +92,7 @@ export const FilesBar = () => {
               <File title="Portfolio.css" logo={<CSSLogo />} />
             </Nav.Link>
             <Nav.Link href="/contactme" className="p-0">
-              <File title="ContactMe.json" logo={<JSONLogo />} />
+              <File title="Contact_Me.json" logo={<JSONLogo />} />
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
