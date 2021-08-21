@@ -3,7 +3,7 @@ import { Row, Col, Container } from "react-bootstrap";
 // import HorizontalPadding from "../Components/HorizontalPadding.js";
 import { ReactComponent as SVGImage } from "../Components/SVG/Hello.svg";
 import Typewriter from "typewriter-effect";
-import "../index.css";
+import "../homepage.css";
 
 export const HomeScreen = () => {
   return (
@@ -16,11 +16,6 @@ export const HomeScreen = () => {
       }}
     >
       <Row>
-        <Col xl="auto" lg="auto" md="auto" sm="auto" xs="auto">
-          {/* <Row className="px-5 d-none d-lg-block"></Row> */}
-          {/* <Row sm="auto" xs="auto" className="px-5 d-none d-lg-block"></Row> */}
-          <Row sm="auto" xs="auto" className="px-5 d-none d-sm-block"></Row>
-        </Col>
         <Col
           xl="auto"
           lg="auto"
@@ -29,7 +24,9 @@ export const HomeScreen = () => {
           xs="auto"
           className="d-none d-sm-block"
         >
-          <Row className="px-5 d-none d-lg-block"></Row>
+          <Row sm="auto" xs="auto" className="px-5 d-none d-sm-block"></Row>
+        </Col>
+        <Col xl="auto" lg="auto" md="auto" sm="auto" xs="auto">
           <Row sm="auto" xs="auto" className="px-5 d-none d-md-block"></Row>
         </Col>
         <Col>
@@ -87,34 +84,4 @@ export const HomeScreen = () => {
 
 export default HomeScreen;
 
-// xl done
-// lg done
-/* <Row>
-            <Col sm="auto" className="pr-4 d-block d-sm-none"></Col>
-            <Col
-              lg="auto"
-              md="auto"
-              sm="auto"
-              className="px-5 d-none d-sm-block"
-            ></Col>
-
-            <Col
-              lg="auto"
-              md="auto"
-              sm="auto"
-              className="pr-5 d-none d-sm-block"
-            ></Col>
-            <Col
-              lg="auto"
-              md="auto"
-              sm="auto"
-              className="pr-5 d-none d-lg-block"
-            ></Col>
-            <Col
-              lg="auto"
-              md="auto"
-              sm="auto"
-              className="pr-0 pl-3"
-              style={{ marginLeft: "70px" }}
-            ></Col>
-          </Row> */
+// 991 - 810

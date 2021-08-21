@@ -11,73 +11,8 @@ body {
   height: 100vh;
 }
 
-.homepage_content_alignment {
-  padding-left: 60px;
-}
-
-.homepage_main_title {
-  font-weight: bold;
-  font-size: 2rem;
-}
-
-.homepage_name_text {
-  font-weight: 500;
-  font-size: 1.5rem;
-}
-
-.homepage_typewriter_text {
-  font-weight: 200;
-  font-size: 1.25rem;
-}
-
-.homepage_svg {
-  height: 35vh;
-  width: 50vw;
-}
-
 @media screen and (max-width: 577px) {
   .files_bar_menu {
     height: inherit;
-  }
-}
-
-/* Tablet View */
-@media screen and (max-width: 769px) and (min-width: 426px) {
-  .homepage_svg {
-    width: 50vw;
-  }
-}
-
-/* Mobile View */
-@media screen and (max-width: 426px) {
-  .homepage_content_alignment {
-    padding-left: 40px;
-  }
-  .homepage_main_title {
-    font-size: 1.5rem;
-  }
-
-  .homepage_name_text {
-    font-size: 1.25rem;
-  }
-
-  .homepage_typewriter_text {
-    font-size: 1rem;
-  }
-
-  .homepage_svg {
-    width: 50vw;
-  }
-}
-
-@media screen and (max-width: 376px) {
-  .homepage_content_alignment {
-    padding-left: 20px;
-  }
-}
-
-@media screen and (max-width: 321px) {
-  .homepage_content_alignment {
-    padding-left: 10px;
   }
 }
