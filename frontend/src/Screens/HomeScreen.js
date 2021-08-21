@@ -1,6 +1,5 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
-// import HorizontalPadding from "../Components/HorizontalPadding.js";
 import { ReactComponent as SVGImage } from "../Components/SVG/Hello.svg";
 import Typewriter from "typewriter-effect";
 import "../homepage.css";
@@ -12,7 +11,6 @@ export const HomeScreen = () => {
       style={{
         color: "white",
         height: "100vh",
-        // width: "100vw",
       }}
     >
       <Row>
@@ -83,5 +81,3 @@ export const HomeScreen = () => {
 };
 
 export default HomeScreen;
-
-// 991 - 810

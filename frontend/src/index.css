@@ -11,6 +11,11 @@ body {
   height: 100vh;
 }
 
+.sidebar_icon {
+  height: 1.5em;
+  width: 1.5em;
+}
+
 @media screen and (max-width: 577px) {
   .files_bar_menu {
     height: inherit;

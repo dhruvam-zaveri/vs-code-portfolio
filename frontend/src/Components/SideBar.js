@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Nav } from "react-bootstrap";
+import "../index.css";
 
 export const SideBar = () => {
   return (
@@ -27,8 +28,7 @@ export const SideBar = () => {
             fill="currentColor"
             strokeWidth="0"
             viewBox="0 0 24 24"
-            height="1.5em"
-            width="1.5em"
+            className="sidebar_icon"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
@@ -44,8 +44,7 @@ export const SideBar = () => {
             fill="currentColor"
             strokeWidth="0"
             viewBox="0 0 24 24"
-            height="1.5em"
-            width="1.5em"
+            className="sidebar_icon"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
@@ -61,8 +60,7 @@ export const SideBar = () => {
             fill="currentColor"
             strokeWidth="0"
             viewBox="0 0 24 24"
-            height="1.5em"
-            width="1.5em"
+            className="sidebar_icon"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
@@ -78,8 +76,7 @@ export const SideBar = () => {
             fill="currentColor"
             strokeWidth="0"
             viewBox="0 0 24 24"
-            height="1.5em"
-            width="1.5em"
+            className="sidebar_icon"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
@@ -114,8 +111,7 @@ export const SideBar = () => {
             fill="currentColor"
             strokeWidth="0"
             viewBox="0 0 16 16"
-            height="1.5em"
-            width="1.5em"
+            className="sidebar_icon"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
@@ -131,8 +127,7 @@ export const SideBar = () => {
             fill="currentColor"
             strokeWidth="0"
             viewBox="0 0 16 16"
-            height="1.5em"
-            width="1.5em"
+            className="sidebar_icon"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
