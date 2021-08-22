@@ -1,0 +1,162 @@
+.btn:hover {
+  background-color: #212121;
+  border-color: #212121;
+}
+
+.page_content_alignment {
+  padding-left: 0px;
+  /* padding-right: 30px; */
+}
+
+.resume_page_title {
+  margin-top: 60px;
+  font-weight: bold;
+  font-size: 2.25rem;
+  text-align: center;
+}
+
+.resume_page_text {
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.personal_statement {
+  font-weight: 300;
+  font-size: 1rem;
+  font-style: italic;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.date {
+  font-style: italic;
+}
+
+.external_link {
+  height: "1em";
+  background: #212121;
+  border-color: #212121;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.section_title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-bottom: 8px;
+  padding-top: 12px;
+}
+
+.section_content {
+  border-left: 2px solid #2977d1;
+  padding-bottom: 0.4rem;
+  padding-left: 2rem;
+  font-size: 0.95rem;
+}
+
+.section_content::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #212121;
+  border: 2px solid #2977d1;
+}
+
+.edu_title {
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: #2977d1;
+  text-transform: uppercase;
+}
+
+.edu_grade {
+  font-weight: 600;
+  color: #2977d1;
+}
+
+.work_title {
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: #2977d1;
+  text-transform: uppercase;
+}
+
+.work_description {
+  font-size: 0.85rem;
+}
+
+/* Laptop and desktop View*/
+@media screen and (max-width: 1320px) and (min-width: 992px) {
+  .page_content_alignment {
+    padding-left: 50px;
+  }
+}
+
+/* Tablet View */
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  .page_content_alignment {
+    padding-left: 10px;
+  }
+  .resume_page_title {
+    font-size: 1.35rem;
+  }
+  .resume_page_text {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .page_content_alignment {
+    padding-left: 10px;
+  }
+  .resume_page_title {
+    font-size: 1.25rem;
+  }
+  .resume_page_text {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 576) {
+  .page_content_alignment {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media screen and (max-width: 495px) and (min-width: 426px) {
+  .page_content_alignment {
+    padding-left: 30px;
+  }
+}
+
+/* Mobile View */
+@media screen and (max-width: 426px) {
+  .page_content_alignment {
+    padding-left: 0px;
+  }
+
+  .resume_page_title {
+    font-size: 1.15rem;
+  }
+
+  .resume_page_text {
+    font-size: 0.75rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .page_content_alignment {
+    padding-right: 40px;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .page_content_alignment {
+    padding-left: 10px;
+  }
+}
