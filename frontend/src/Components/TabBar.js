@@ -13,7 +13,7 @@ export const TabBar = () => {
 
   switch (pathname) {
     case "/aboutme":
-      _title = "AboutMe.py";
+      _title = "About_Me.py";
       _logo = <PyLogo />;
       break;
 
@@ -28,7 +28,7 @@ export const TabBar = () => {
       break;
 
     case "/contactme":
-      _title = "ContactMe.json";
+      _title = "Contact_Me.json";
       _logo = <JSONLogo />;
       break;
 

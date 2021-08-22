@@ -1,6 +1,7 @@
 .page_content_alignment {
-  padding-left: 60px;
-  padding-right: 0px;
+  padding-left: 90px;
+  padding-top: 20px;
+  padding-right: 30px;
 }
 
 .about_me_page_title {
@@ -11,20 +12,31 @@
 
 .about_me_page_text {
   font-weight: 300;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
 }
 
 /* Tablet View */
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .page_content_alignment {
+    padding-left: 10px;
+  }
+  .about_me_page_title {
+    font-size: 1.35rem;
+  }
+  .about_me_page_text {
+    font-size: 0.9rem;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .page_content_alignment {
-    padding-left: 30px;
-    padding-top: 50px;
+    padding-left: 10px;
   }
   .about_me_page_title {
     font-size: 1.25rem;
   }
   .about_me_page_text {
-    font-size: 0.95rem;
+    font-size: 0.8rem;
   }
 }
 

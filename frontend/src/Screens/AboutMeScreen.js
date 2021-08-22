@@ -35,22 +35,23 @@ export const AboutMeScreen = () => {
             enrolled in B. Tech Computer Science and Engineering.
           </Row>
           <Row className="py-2 about_me_page_text">
-            🌇 Vadodara Native, with a passion for developing solutions that
-            will grow your business.
+            🌇 Vadodara Native, with a passion for developing innovative and
+            creative projects.
           </Row>
           <Row className="py-2 about_me_page_text">
-            📚 I've developed projects related to different fields to widen my
-            knowledge and abilities.
+            📚 I've developed several projects using various technologies to
+            widen my knowledge and abilities.
           </Row>
           <Row className="py-2 about_me_page_text">
-            💻 Talking about my future, I hope to one day work as Software
+            💻 Talking about my future, I hope to one day work as a Software
             Development Engineer and work with a diverse team.
           </Row>
           <Row className="py-2 about_me_page_text">
-            😄 In my free time, you can find me socializing or cracking jokes.
+            😄 In my time away from the screen, you can find me lost in melodies
+            or cracking jokes.
           </Row>
           <Row className="py-2 about_me_page_text">
-            💪🏽 Adaptive, Team player, Critical thinker, Self-improving.
+            👾 An avid emoji user, it is obvious from the usage here.
           </Row>
         </Col>
       </Row>
