@@ -22,8 +22,8 @@ export const TabBar = () => {
       _logo = <HTMLLogo />;
       break;
 
-    case "/portfolio":
-      _title = "Portfolio.css";
+    case "/projects":
+      _title = "Projects.css";
       _logo = <CSSLogo />;
       break;
 

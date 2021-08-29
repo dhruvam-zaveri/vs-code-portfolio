@@ -1,6 +1,6 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
-import "../aboutmepage.css";
+import "./css/aboutmepage.css";
 
 export const AboutMeScreen = () => {
   return (
@@ -26,7 +26,7 @@ export const AboutMeScreen = () => {
           <Row sm="auto" xs="auto" className="px-5 d-none d-md-block"></Row>
         </Col>
         <Col>
-          <Col className="py-4 about_me_page_title">Something about me...</Col>
+          <Col className="py-4 about_me_page_title">Few things about me...</Col>
           <Row className="py-2 about_me_page_text">
             👋🏽 Hi, my name is Dhruvam.
           </Row>

@@ -1,6 +1,6 @@
 import React from "react";
 import { Row, Col, Container, Button } from "react-bootstrap";
-import "../resumepage.css";
+import "./css/resumepage.css";
 
 export const ResumeScreen = () => {
   return (

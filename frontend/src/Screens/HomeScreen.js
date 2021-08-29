@@ -2,7 +2,7 @@ import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import { ReactComponent as SVGImage } from "../Components/SVG/Hello.svg";
 import Typewriter from "typewriter-effect";
-import "../homepage.css";
+import "./css/homepage.css";
 
 export const HomeScreen = () => {
   return (

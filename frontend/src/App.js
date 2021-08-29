@@ -8,7 +8,7 @@ import FilesBar from "./Components/FilesBar.js";
 import HomeScreen from "./Screens/HomeScreen.js";
 import AboutMeScreen from "./Screens/AboutMeScreen.js";
 import ResumeScreen from "./Screens/ResumeScreen.js";
-import PortfolioScreen from "./Screens/PortfolioScreen.js";
+import ProjectsScreen from "./Screens/ProjectsScreen.js";
 import ContactMeScreen from "./Screens/ContactMeScreen.js";
 import "./index.css";
 
@@ -21,7 +21,7 @@ const App = () => {
           <Route path="/" component={HomeScreen} exact />
           <Route path="/aboutme" component={AboutMeScreen} exact />
           <Route path="/resume" component={ResumeScreen} exact />
-          <Route path="/portfolio" component={PortfolioScreen} exact />
+          <Route path="/projects" component={ProjectsScreen} exact />
           <Route path="/contactme" component={ContactMeScreen} exact />
         </Container>
         <Header />

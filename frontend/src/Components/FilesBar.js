@@ -88,8 +88,8 @@ export const FilesBar = () => {
             <Nav.Link href="/resume" className="p-0">
               <File title="Resume.html" logo={<HTMLLogo />} />
             </Nav.Link>
-            <Nav.Link href="/portfolio" className="p-0">
-              <File title="Portfolio.css" logo={<CSSLogo />} />
+            <Nav.Link href="/projects" className="p-0">
+              <File title="Projects.css" logo={<CSSLogo />} />
             </Nav.Link>
             <Nav.Link href="/contactme" className="p-0">
               <File title="Contact_Me.json" logo={<JSONLogo />} />
