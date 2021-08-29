@@ -89,6 +89,19 @@
   box-shadow: 0px 0px 80px 8px rgb(0, 0, 0);
 }
 
+.btn {
+  border-color: #2977d1;
+  color: #2977d1;
+  height: 30px;
+  margin-top: 4px;
+  margin-right: 4px;
+}
+
+.btn:hover {
+  border-color: #2977d1;
+  background-color: #2977d1;
+  color: #fff;
+}
 .card-img {
   padding: 16px;
   filter: grayscale(100%);

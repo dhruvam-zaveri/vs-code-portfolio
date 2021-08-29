@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Col, Container, Card, Button } from "react-bootstrap";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
-
+import { ExternalLinkLogo } from "../Components/Logos.js";
 import "./css/projectspage.css";
 
 export const PortfolioScreen = () => {
@@ -48,8 +48,40 @@ export const PortfolioScreen = () => {
                     payment, aimed at providing minimalistic UI and UX.
                   </Card.Text>
                   <Card.Text>
-                    <Button variant="outline-primary" size="sm">
+                    <Button variant="outline" size="sm">
                       MongoDB
+                    </Button>
+                    <Button variant="outline" size="sm">
+                      Express.JS
+                    </Button>
+                    <Button variant="outline" size="sm">
+                      React.JS
+                    </Button>
+                    <Button variant="outline" size="sm">
+                      Node.JS
+                    </Button>
+                    <Button variant="outline" size="sm">
+                      Heroku
+                    </Button>
+                    <Button variant="outline" size="sm">
+                      Postman
+                    </Button>
+                  </Card.Text>
+                  <Card.Text>
+                    <Button
+                      variant="dark"
+                      href="https://proshop-webapp-0.herokuapp.com/"
+                      target="_blank"
+                      size="sm"
+                      style={{
+                        backgroundColor: "#212121",
+                        alignItems: "center",
+                        color: "white",
+                        borderColor: "white",
+                      }}
+                    >
+                      <ExternalLinkLogo />
+                      {" View Project"}
                     </Button>
                   </Card.Text>
                 </Card.Body>
@@ -62,6 +94,37 @@ export const PortfolioScreen = () => {
                   <Card.Text>
                     A web based application that can render 2D map data in .osm
                     format in 3D.
+                  </Card.Text>
+                  <Card.Text>
+                    <Button variant="outline" size="sm">
+                      Unity3D
+                    </Button>
+                    <Button variant="outline" size="sm">
+                      HTML
+                    </Button>
+                    <Button variant="outline" size="sm">
+                      CSS
+                    </Button>
+                    <Button variant="outline" size="sm">
+                      Firebase
+                    </Button>
+                  </Card.Text>
+                  <Card.Text>
+                    <Button
+                      variant="dark"
+                      href="https://map-ar-d1743.web.app/"
+                      target="_blank"
+                      size="sm"
+                      style={{
+                        backgroundColor: "#212121",
+                        alignItems: "center",
+                        color: "white",
+                        borderColor: "white",
+                      }}
+                    >
+                      <ExternalLinkLogo />
+                      {" View Project"}
+                    </Button>
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -78,6 +141,34 @@ export const PortfolioScreen = () => {
                     calculates distance between them to determine if safe
                     distance is maintained.
                   </Card.Text>
+                  <Card.Text>
+                    <Button variant="outline" size="sm">
+                      Python
+                    </Button>
+                    <Button variant="outline" size="sm">
+                      Computer vision
+                    </Button>
+                    <Button variant="outline" size="sm">
+                      Digital Image Processing
+                    </Button>
+                  </Card.Text>
+                  <Card.Text>
+                    <Button
+                      variant="dark"
+                      href="https://github.com/dhruvam-zaveri/Social-distancing-tracker"
+                      target="_blank"
+                      size="sm"
+                      style={{
+                        backgroundColor: "#212121",
+                        alignItems: "center",
+                        color: "white",
+                        borderColor: "white",
+                      }}
+                    >
+                      <ExternalLinkLogo />
+                      {" View Project"}
+                    </Button>
+                  </Card.Text>
                 </Card.Body>
               </Card>
 
@@ -87,6 +178,34 @@ export const PortfolioScreen = () => {
                   <Card.Title>Portfolio website for a photographer</Card.Title>
                   <Card.Text>
                     Frontend design for portfolio website of a photographer.
+                  </Card.Text>
+                  <Card.Text>
+                    <Button variant="outline" size="sm">
+                      Adobe XD
+                    </Button>
+                    <Button variant="outline" size="sm">
+                      HTML
+                    </Button>
+                    <Button variant="outline" size="sm">
+                      CSS
+                    </Button>
+                  </Card.Text>
+                  <Card.Text>
+                    <Button
+                      variant="dark"
+                      href="https://github.com/dhruvam-zaveri/Portfolio-website-prototype"
+                      target="_blank"
+                      size="sm"
+                      style={{
+                        backgroundColor: "#212121",
+                        alignItems: "center",
+                        color: "white",
+                        borderColor: "white",
+                      }}
+                    >
+                      <ExternalLinkLogo />
+                      {" View Project"}
+                    </Button>
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -99,16 +218,72 @@ export const PortfolioScreen = () => {
                     A mobile app that can suggest schools nearby the user based
                     on GPS location from a custom designed database.
                   </Card.Text>
+                  <Card.Text>
+                    <Button variant="outline" size="sm">
+                      Flutter
+                    </Button>
+                    <Button variant="outline" size="sm">
+                      Google APIs
+                    </Button>
+                    <Button variant="outline" size="sm">
+                      Firebase
+                    </Button>
+                  </Card.Text>
+                  <Card.Text>
+                    <Button
+                      variant="dark"
+                      href="https://github.com/dhruvam-zaveri/SchoolBy/"
+                      target="_blank"
+                      size="sm"
+                      style={{
+                        backgroundColor: "#212121",
+                        alignItems: "center",
+                        color: "white",
+                        borderColor: "white",
+                      }}
+                    >
+                      <ExternalLinkLogo />
+                      {" View Project"}
+                    </Button>
+                  </Card.Text>
                 </Card.Body>
               </Card>
 
               <Card className="project_card">
                 <Card.Img src="./assets/project_img/portfolio.jpg" flush />
                 <Card.Body>
-                  <Card.Title>My portfolio website</Card.Title>
+                  <Card.Title>My old portfolio website</Card.Title>
                   <Card.Text>
-                    My portfolio website created purely using HTML and CSS and
-                    hosted using GitHub pages.
+                    My previous portfolio website created purely using HTML and
+                    CSS and hosted using GitHub pages.
+                  </Card.Text>
+                  <Card.Text>
+                    <Button variant="outline" size="sm">
+                      HTML
+                    </Button>
+                    <Button variant="outline" size="sm">
+                      CSS
+                    </Button>
+                    <Button variant="outline" size="sm">
+                      Adobe XD
+                    </Button>
+                  </Card.Text>
+                  <Card.Text>
+                    <Button
+                      variant="dark"
+                      href="https://github.com/dhruvam-zaveri/Old-portfolio-website"
+                      target="_blank"
+                      size="sm"
+                      style={{
+                        backgroundColor: "#212121",
+                        alignItems: "center",
+                        color: "white",
+                        borderColor: "white",
+                      }}
+                    >
+                      <ExternalLinkLogo />
+                      {" View Project"}
+                    </Button>
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -121,6 +296,28 @@ export const PortfolioScreen = () => {
                     A survival First person shooter game. Available on multiple
                     platforms (Windows, MacOS and Android).
                   </Card.Text>
+                  <Card.Text>
+                    <Button variant="outline" size="sm">
+                      Unity3D
+                    </Button>
+                  </Card.Text>
+                  <Card.Text>
+                    <Button
+                      variant="dark"
+                      href="https://github.com/dhruvam-zaveri/ZombieLand"
+                      target="_blank"
+                      size="sm"
+                      style={{
+                        backgroundColor: "#212121",
+                        alignItems: "center",
+                        color: "white",
+                        borderColor: "white",
+                      }}
+                    >
+                      <ExternalLinkLogo />
+                      {" View Project"}
+                    </Button>
+                  </Card.Text>
                 </Card.Body>
               </Card>
 
@@ -130,6 +327,31 @@ export const PortfolioScreen = () => {
                   <Card.Title>Chemicals Segregation</Card.Title>
                   <Card.Text>
                     Classifying chemicals on the basis of 3 given attibutes.
+                  </Card.Text>
+                  <Card.Text>
+                    <Button variant="outline" size="sm">
+                      Python
+                    </Button>
+                    <Button variant="outline" size="sm">
+                      Machine Learning
+                    </Button>
+                  </Card.Text>
+                  <Card.Text>
+                    <Button
+                      variant="dark"
+                      href="https://github.com/dhruvam-zaveri/Chemicals-Segregations"
+                      target="_blank"
+                      size="sm"
+                      style={{
+                        backgroundColor: "#212121",
+                        alignItems: "center",
+                        color: "white",
+                        borderColor: "white",
+                      }}
+                    >
+                      <ExternalLinkLogo />
+                      {" View Project"}
+                    </Button>
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -142,6 +364,31 @@ export const PortfolioScreen = () => {
                     Predicting the score a student will get, given the amount of
                     time spent on coding daily.
                   </Card.Text>
+                  <Card.Text>
+                    <Button variant="outline" size="sm">
+                      Python
+                    </Button>
+                    <Button variant="outline" size="sm">
+                      Machine Learning
+                    </Button>
+                  </Card.Text>
+                  <Card.Text>
+                    <Button
+                      variant="dark"
+                      href="https://github.com/dhruvam-zaveri/Application-of-Liner-Regression/"
+                      target="_blank"
+                      size="sm"
+                      style={{
+                        backgroundColor: "#212121",
+                        alignItems: "center",
+                        color: "white",
+                        borderColor: "white",
+                      }}
+                    >
+                      <ExternalLinkLogo />
+                      {" View Project"}
+                    </Button>
+                  </Card.Text>
                 </Card.Body>
               </Card>
 
@@ -152,6 +399,31 @@ export const PortfolioScreen = () => {
                   <Card.Text>
                     Classification Problem, classify a person as diabetic or
                     non-diabetic using K-Nearest Neighbors classifier.
+                  </Card.Text>
+                  <Card.Text>
+                    <Button variant="outline" size="sm">
+                      Python
+                    </Button>
+                    <Button variant="outline" size="sm">
+                      Machine Learning
+                    </Button>
+                  </Card.Text>
+                  <Card.Text>
+                    <Button
+                      variant="dark"
+                      href="https://github.com/dhruvam-zaveri/Diabetes-Detection"
+                      target="_blank"
+                      size="sm"
+                      style={{
+                        backgroundColor: "#212121",
+                        alignItems: "center",
+                        color: "white",
+                        borderColor: "white",
+                      }}
+                    >
+                      <ExternalLinkLogo />
+                      {" View Project"}
+                    </Button>
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -165,6 +437,31 @@ export const PortfolioScreen = () => {
                     New Delhi and ML algorithm, predicting the air quality
                     index.
                   </Card.Text>
+                  <Card.Text>
+                    <Button variant="outline" size="sm">
+                      Python
+                    </Button>
+                    <Button variant="outline" size="sm">
+                      Machine Learning
+                    </Button>
+                  </Card.Text>
+                  <Card.Text>
+                    <Button
+                      variant="dark"
+                      href="https://github.com/dhruvam-zaveri/Predicting-Air-Pollution-Levels"
+                      target="_blank"
+                      size="sm"
+                      style={{
+                        backgroundColor: "#212121",
+                        alignItems: "center",
+                        color: "white",
+                        borderColor: "white",
+                      }}
+                    >
+                      <ExternalLinkLogo />
+                      {" View Project"}
+                    </Button>
+                  </Card.Text>
                 </Card.Body>
               </Card>
 
@@ -177,6 +474,28 @@ export const PortfolioScreen = () => {
                     and techniques like castling and piece promotion of chess
                     are coded for real chess experience.
                   </Card.Text>
+                  <Card.Text>
+                    <Button variant="outline" size="sm">
+                      C++
+                    </Button>
+                  </Card.Text>
+                  <Card.Text>
+                    <Button
+                      variant="dark"
+                      href="https://github.com/dhruvam-zaveri/ASCII-Chess"
+                      target="_blank"
+                      size="sm"
+                      style={{
+                        backgroundColor: "#212121",
+                        alignItems: "center",
+                        color: "white",
+                        borderColor: "white",
+                      }}
+                    >
+                      <ExternalLinkLogo />
+                      {" View Project"}
+                    </Button>
+                  </Card.Text>
                 </Card.Body>
               </Card>
 
@@ -187,6 +506,28 @@ export const PortfolioScreen = () => {
                   <Card.Text>
                     A simple snake game written in C language. Purely based on
                     logic and knowledge of C.
+                  </Card.Text>
+                  <Card.Text>
+                    <Button variant="outline" size="sm">
+                      C
+                    </Button>
+                  </Card.Text>
+                  <Card.Text>
+                    <Button
+                      variant="dark"
+                      href="https://github.com/dhruvam-zaveri/Snake-Game"
+                      target="_blank"
+                      size="sm"
+                      style={{
+                        backgroundColor: "#212121",
+                        alignItems: "center",
+                        color: "white",
+                        borderColor: "white",
+                      }}
+                    >
+                      <ExternalLinkLogo />
+                      {" View Project"}
+                    </Button>
                   </Card.Text>
                 </Card.Body>
               </Card>
