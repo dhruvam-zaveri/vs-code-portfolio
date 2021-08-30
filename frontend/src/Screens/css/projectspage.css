@@ -5,19 +5,13 @@
 
 .page_content_alignment {
   padding-left: 0px;
-  /* padding-right: 30px; */
 }
 
 .project_page_title {
-  margin-top: 60px;
+  margin-top: 70px;
   font-weight: bold;
   font-size: 2.25rem;
   text-align: center;
-}
-
-.project_page_text {
-  font-weight: 300;
-  font-size: 1rem;
 }
 
 .personal_statement {
@@ -28,44 +22,6 @@
   padding-bottom: 20px;
 }
 
-.date {
-  font-style: italic;
-}
-
-.section_title {
-  font-size: 1.5rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  padding-bottom: 8px;
-  padding-top: 12px;
-}
-
-.section_content {
-  border-left: 2px solid #2977d1;
-  padding-bottom: 0.4rem;
-  padding-left: 2rem;
-  font-size: 0.95rem;
-}
-
-.section_content::before {
-  content: "";
-  position: absolute;
-  width: 16px;
-  height: 16px;
-  border-radius: 50px;
-  left: -9px;
-  top: 0;
-  background: #212121;
-  border: 2px solid #2977d1;
-}
-
-/* .grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
-  grid-template-rows: minmax(100px, auto);
-  grid-gap: 20px;
-  align-items: start;
-} */
 .card-title {
   font-size: 1.35rem;
 }
@@ -95,6 +51,7 @@
   height: 30px;
   margin-top: 4px;
   margin-right: 4px;
+  align-items: center;
 }
 
 .btn:hover {
@@ -104,36 +61,19 @@
 }
 .card-img {
   padding: 16px;
-  filter: grayscale(100%);
-}
-
-.edu_title {
-  font-weight: 700;
-  font-size: 0.9rem;
-  color: #2977d1;
-  text-transform: uppercase;
-}
-
-.edu_grade {
-  font-weight: 600;
-  color: #2977d1;
-}
-
-.work_title {
-  font-weight: 700;
-  font-size: 0.9rem;
-  color: #2977d1;
-  text-transform: uppercase;
-}
-
-.work_description {
-  font-size: 0.85rem;
 }
 
 /* Laptop and desktop View*/
-@media screen and (max-width: 1320px) and (min-width: 992px) {
-  .page_content_alignment {
-    padding-left: 50px;
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+  .card-title {
+    font-size: 1.05rem;
+  }
+  .card-text {
+    font-size: 0.8rem;
+  }
+  .btn {
+    height: 26px;
+    font-size: 0.7rem;
   }
 }
 
@@ -145,8 +85,11 @@
   .project_page_title {
     font-size: 1.35rem;
   }
-  .project_page_text {
-    font-size: 0.9rem;
+  .main_content_container {
+    min-width: 760px;
+  }
+  .card-title {
+    font-size: 1rem;
   }
 }
 
@@ -156,9 +99,6 @@
   }
   .project_page_title {
     font-size: 1.25rem;
-  }
-  .project_page_text {
-    font-size: 0.8rem;
   }
 }
 
@@ -183,10 +123,6 @@
 
   .project_page_title {
     font-size: 1.15rem;
-  }
-
-  .project_page_text {
-    font-size: 0.75rem;
   }
 }
 

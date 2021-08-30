@@ -7,7 +7,7 @@ import "./css/projectspage.css";
 export const PortfolioScreen = () => {
   return (
     <Container
-      className="page_content_alignment"
+      className="p-0 m-0 page_content_alignment"
       style={{
         color: "white",
       }}
@@ -25,7 +25,7 @@ export const PortfolioScreen = () => {
         </Col>
 
         <Col xl="auto" lg="auto" md="auto" sm="auto" xs="auto">
-          <Row sm="auto" xs="auto" className="px-5 d-none d-md-block"></Row>
+          <Row sm="auto" xs="auto" className="px-5 d-none d-lg-block"></Row>
         </Col>
 
         <Col>
@@ -36,7 +36,7 @@ export const PortfolioScreen = () => {
           </Col>
 
           <ResponsiveMasonry
-            columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}
+            columnsCountBreakPoints={{ 350: 1, 770: 2, 1000: 3 }}
           >
             <Masonry gutter={30}>
               <Card className="project_card">
@@ -44,8 +44,8 @@ export const PortfolioScreen = () => {
                 <Card.Body>
                   <Card.Title>Proshop</Card.Title>
                   <Card.Text>
-                    A simplistic E-Commerce website developed with online
-                    payment, aimed at providing minimalistic UI and UX.
+                    An E-Commerce website with online payment option, aimed at
+                    providing minimalistic UI and UX.
                   </Card.Text>
                   <Card.Text>
                     <Button variant="outline" size="sm">
@@ -137,16 +137,15 @@ export const PortfolioScreen = () => {
                 <Card.Body>
                   <Card.Title>Social distancing detector</Card.Title>
                   <Card.Text>
-                    Detects and counts number of people in a video frame and
-                    calculates distance between them to determine if safe
-                    distance is maintained.
+                    Detects and calculates distance between people in a video to
+                    determine if social distance is maintained.
                   </Card.Text>
                   <Card.Text>
                     <Button variant="outline" size="sm">
                       Python
                     </Button>
                     <Button variant="outline" size="sm">
-                      Computer vision
+                      Computer Vision
                     </Button>
                     <Button variant="outline" size="sm">
                       Digital Image Processing
@@ -254,8 +253,8 @@ export const PortfolioScreen = () => {
                 <Card.Body>
                   <Card.Title>My old portfolio website</Card.Title>
                   <Card.Text>
-                    My previous portfolio website created purely using HTML and
-                    CSS and hosted using GitHub pages.
+                    My previous portfolio website, which has non-convertional
+                    UI.
                   </Card.Text>
                   <Card.Text>
                     <Button variant="outline" size="sm">
@@ -263,6 +262,9 @@ export const PortfolioScreen = () => {
                     </Button>
                     <Button variant="outline" size="sm">
                       CSS
+                    </Button>
+                    <Button variant="outline" size="sm">
+                      Github Pages
                     </Button>
                     <Button variant="outline" size="sm">
                       Adobe XD
@@ -293,8 +295,8 @@ export const PortfolioScreen = () => {
                 <Card.Body>
                   <Card.Title>ZombieLand</Card.Title>
                   <Card.Text>
-                    A survival First person shooter game. Available on multiple
-                    platforms (Windows, MacOS and Android).
+                    A survival First person shooter game. Available on Windows,
+                    MacOS and Android.
                   </Card.Text>
                   <Card.Text>
                     <Button variant="outline" size="sm">
@@ -397,8 +399,8 @@ export const PortfolioScreen = () => {
                 <Card.Body>
                   <Card.Title>Diabetes Detection</Card.Title>
                   <Card.Text>
-                    Classification Problem, classify a person as diabetic or
-                    non-diabetic using K-Nearest Neighbors classifier.
+                    Classifying a person as diabetic or non-diabetic using
+                    K-Nearest Neighbors classifier.
                   </Card.Text>
                   <Card.Text>
                     <Button variant="outline" size="sm">
@@ -470,9 +472,9 @@ export const PortfolioScreen = () => {
                 <Card.Body>
                   <Card.Title>ASCII Chess</Card.Title>
                   <Card.Text>
-                    One of my few projects purely based on logic. All the rules
-                    and techniques like castling and piece promotion of chess
-                    are coded for real chess experience.
+                    One of my projects purely based on logic. For authentic
+                    chess playing experience defined all the rules and
+                    techniques of chess.
                   </Card.Text>
                   <Card.Text>
                     <Button variant="outline" size="sm">
@@ -504,8 +506,7 @@ export const PortfolioScreen = () => {
                 <Card.Body>
                   <Card.Title>Snake Game</Card.Title>
                   <Card.Text>
-                    A simple snake game written in C language. Purely based on
-                    logic and knowledge of C.
+                    A simple snake game to reminisce about gaming in childhood.
                   </Card.Text>
                   <Card.Text>
                     <Button variant="outline" size="sm">
@@ -515,7 +516,7 @@ export const PortfolioScreen = () => {
                   <Card.Text>
                     <Button
                       variant="dark"
-                      href="https://github.com/dhruvam-zaveri/Snake-Game"
+                      href="https://github.com/dhruvam-zaveri/Application-of-Liner-Regression/"
                       target="_blank"
                       size="sm"
                       style={{

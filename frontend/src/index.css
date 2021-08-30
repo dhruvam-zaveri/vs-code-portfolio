@@ -16,7 +16,15 @@ body {
   width: 1.5em;
 }
 
+.main_content_container {
+  padding-left: 120px;
+}
+
 @media screen and (max-width: 577px) {
+  .main_content_container {
+    padding-left: 60px;
+    padding-right: 30px;
+  }
   .files_bar_menu {
     height: inherit;
   }
