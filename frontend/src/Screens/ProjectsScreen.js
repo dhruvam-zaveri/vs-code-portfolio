@@ -48,22 +48,46 @@ export const PortfolioScreen = () => {
                     providing minimalistic UI and UX.
                   </Card.Text>
                   <Card.Text>
-                    <Button variant="outline" size="sm">
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      className="technologies_btn"
+                    >
                       MongoDB
                     </Button>
-                    <Button variant="outline" size="sm">
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      className="technologies_btn"
+                    >
                       Express.JS
                     </Button>
-                    <Button variant="outline" size="sm">
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      className="technologies_btn"
+                    >
                       React.JS
                     </Button>
-                    <Button variant="outline" size="sm">
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      className="technologies_btn"
+                    >
                       Node.JS
                     </Button>
-                    <Button variant="outline" size="sm">
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      className="technologies_btn"
+                    >
                       Heroku
                     </Button>
-                    <Button variant="outline" size="sm">
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      className="technologies_btn"
+                    >
                       Postman
                     </Button>
                   </Card.Text>
@@ -91,16 +115,32 @@ export const PortfolioScreen = () => {
                     format in 3D.
                   </Card.Text>
                   <Card.Text>
-                    <Button variant="outline" size="sm">
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      className="technologies_btn"
+                    >
                       Unity3D
                     </Button>
-                    <Button variant="outline" size="sm">
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      className="technologies_btn"
+                    >
                       HTML
                     </Button>
-                    <Button variant="outline" size="sm">
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      className="technologies_btn"
+                    >
                       CSS
                     </Button>
-                    <Button variant="outline" size="sm">
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      className="technologies_btn"
+                    >
                       Firebase
                     </Button>
                   </Card.Text>
@@ -131,13 +171,25 @@ export const PortfolioScreen = () => {
                     determine if social distance is maintained.
                   </Card.Text>
                   <Card.Text>
-                    <Button variant="outline" size="sm">
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      className="technologies_btn"
+                    >
                       Python
                     </Button>
-                    <Button variant="outline" size="sm">
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      className="technologies_btn"
+                    >
                       Computer Vision
                     </Button>
-                    <Button variant="outline" size="sm">
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      className="technologies_btn"
+                    >
                       Digital Image Processing
                     </Button>
                   </Card.Text>
@@ -164,13 +216,25 @@ export const PortfolioScreen = () => {
                     Frontend design for portfolio website of a photographer.
                   </Card.Text>
                   <Card.Text>
-                    <Button variant="outline" size="sm">
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      className="technologies_btn"
+                    >
                       Adobe XD
                     </Button>
-                    <Button variant="outline" size="sm">
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      className="technologies_btn"
+                    >
                       HTML
                     </Button>
-                    <Button variant="outline" size="sm">
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      className="technologies_btn"
+                    >
                       CSS
                     </Button>
                   </Card.Text>
@@ -198,13 +262,25 @@ export const PortfolioScreen = () => {
                     on GPS location from a custom designed database.
                   </Card.Text>
                   <Card.Text>
-                    <Button variant="outline" size="sm">
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      className="technologies_btn"
+                    >
                       Flutter
                     </Button>
-                    <Button variant="outline" size="sm">
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      className="technologies_btn"
+                    >
                       Google APIs
                     </Button>
-                    <Button variant="outline" size="sm">
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      className="technologies_btn"
+                    >
                       Firebase
                     </Button>
                   </Card.Text>
@@ -232,16 +308,32 @@ export const PortfolioScreen = () => {
                     UI.
                   </Card.Text>
                   <Card.Text>
-                    <Button variant="outline" size="sm">
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      className="technologies_btn"
+                    >
                       HTML
                     </Button>
-                    <Button variant="outline" size="sm">
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      className="technologies_btn"
+                    >
                       CSS
                     </Button>
-                    <Button variant="outline" size="sm">
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      className="technologies_btn"
+                    >
                       Github Pages
                     </Button>
-                    <Button variant="outline" size="sm">
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      className="technologies_btn"
+                    >
                       Adobe XD
                     </Button>
                   </Card.Text>
@@ -269,7 +361,11 @@ export const PortfolioScreen = () => {
                     MacOS and Android.
                   </Card.Text>
                   <Card.Text>
-                    <Button variant="outline" size="sm">
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      className="technologies_btn"
+                    >
                       Unity3D
                     </Button>
                   </Card.Text>
@@ -296,10 +392,18 @@ export const PortfolioScreen = () => {
                     Classifying chemicals on the basis of 3 given attibutes.
                   </Card.Text>
                   <Card.Text>
-                    <Button variant="outline" size="sm">
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      className="technologies_btn"
+                    >
                       Python
                     </Button>
-                    <Button variant="outline" size="sm">
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      className="technologies_btn"
+                    >
                       Machine Learning
                     </Button>
                   </Card.Text>
@@ -327,10 +431,18 @@ export const PortfolioScreen = () => {
                     time spent on coding daily.
                   </Card.Text>
                   <Card.Text>
-                    <Button variant="outline" size="sm">
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      className="technologies_btn"
+                    >
                       Python
                     </Button>
-                    <Button variant="outline" size="sm">
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      className="technologies_btn"
+                    >
                       Machine Learning
                     </Button>
                   </Card.Text>
@@ -358,10 +470,18 @@ export const PortfolioScreen = () => {
                     K-Nearest Neighbors classifier.
                   </Card.Text>
                   <Card.Text>
-                    <Button variant="outline" size="sm">
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      className="technologies_btn"
+                    >
                       Python
                     </Button>
-                    <Button variant="outline" size="sm">
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      className="technologies_btn"
+                    >
                       Machine Learning
                     </Button>
                   </Card.Text>
@@ -390,10 +510,18 @@ export const PortfolioScreen = () => {
                     index.
                   </Card.Text>
                   <Card.Text>
-                    <Button variant="outline" size="sm">
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      className="technologies_btn"
+                    >
                       Python
                     </Button>
-                    <Button variant="outline" size="sm">
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      className="technologies_btn"
+                    >
                       Machine Learning
                     </Button>
                   </Card.Text>
@@ -422,7 +550,11 @@ export const PortfolioScreen = () => {
                     techniques of chess.
                   </Card.Text>
                   <Card.Text>
-                    <Button variant="outline" size="sm">
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      className="technologies_btn"
+                    >
                       C++
                     </Button>
                   </Card.Text>
@@ -449,7 +581,11 @@ export const PortfolioScreen = () => {
                     A simple snake game to reminisce about gaming in childhood.
                   </Card.Text>
                   <Card.Text>
-                    <Button variant="outline" size="sm">
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      className="technologies_btn"
+                    >
                       C
                     </Button>
                   </Card.Text>
