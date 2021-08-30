@@ -73,12 +73,7 @@ export const PortfolioScreen = () => {
                       href="https://proshop-webapp-0.herokuapp.com/"
                       target="_blank"
                       size="sm"
-                      style={{
-                        backgroundColor: "#212121",
-                        alignItems: "center",
-                        color: "white",
-                        borderColor: "white",
-                      }}
+                      className="external_link_button"
                     >
                       <ExternalLinkLogo />
                       {" View Project"}
@@ -115,12 +110,7 @@ export const PortfolioScreen = () => {
                       href="https://map-ar-d1743.web.app/"
                       target="_blank"
                       size="sm"
-                      style={{
-                        backgroundColor: "#212121",
-                        alignItems: "center",
-                        color: "white",
-                        borderColor: "white",
-                      }}
+                      className="external_link_button"
                     >
                       <ExternalLinkLogo />
                       {" View Project"}
@@ -157,12 +147,7 @@ export const PortfolioScreen = () => {
                       href="https://github.com/dhruvam-zaveri/Social-distancing-tracker"
                       target="_blank"
                       size="sm"
-                      style={{
-                        backgroundColor: "#212121",
-                        alignItems: "center",
-                        color: "white",
-                        borderColor: "white",
-                      }}
+                      className="external_link_button"
                     >
                       <ExternalLinkLogo />
                       {" View Project"}
@@ -195,12 +180,7 @@ export const PortfolioScreen = () => {
                       href="https://github.com/dhruvam-zaveri/Portfolio-website-prototype"
                       target="_blank"
                       size="sm"
-                      style={{
-                        backgroundColor: "#212121",
-                        alignItems: "center",
-                        color: "white",
-                        borderColor: "white",
-                      }}
+                      className="external_link_button"
                     >
                       <ExternalLinkLogo />
                       {" View Project"}
@@ -234,12 +214,7 @@ export const PortfolioScreen = () => {
                       href="https://github.com/dhruvam-zaveri/SchoolBy/"
                       target="_blank"
                       size="sm"
-                      style={{
-                        backgroundColor: "#212121",
-                        alignItems: "center",
-                        color: "white",
-                        borderColor: "white",
-                      }}
+                      className="external_link_button"
                     >
                       <ExternalLinkLogo />
                       {" View Project"}
@@ -276,12 +251,7 @@ export const PortfolioScreen = () => {
                       href="https://github.com/dhruvam-zaveri/Old-portfolio-website"
                       target="_blank"
                       size="sm"
-                      style={{
-                        backgroundColor: "#212121",
-                        alignItems: "center",
-                        color: "white",
-                        borderColor: "white",
-                      }}
+                      className="external_link_button"
                     >
                       <ExternalLinkLogo />
                       {" View Project"}
@@ -309,12 +279,7 @@ export const PortfolioScreen = () => {
                       href="https://github.com/dhruvam-zaveri/ZombieLand"
                       target="_blank"
                       size="sm"
-                      style={{
-                        backgroundColor: "#212121",
-                        alignItems: "center",
-                        color: "white",
-                        borderColor: "white",
-                      }}
+                      className="external_link_button"
                     >
                       <ExternalLinkLogo />
                       {" View Project"}
@@ -344,12 +309,7 @@ export const PortfolioScreen = () => {
                       href="https://github.com/dhruvam-zaveri/Chemicals-Segregations"
                       target="_blank"
                       size="sm"
-                      style={{
-                        backgroundColor: "#212121",
-                        alignItems: "center",
-                        color: "white",
-                        borderColor: "white",
-                      }}
+                      className="external_link_button"
                     >
                       <ExternalLinkLogo />
                       {" View Project"}
@@ -380,12 +340,7 @@ export const PortfolioScreen = () => {
                       href="https://github.com/dhruvam-zaveri/Application-of-Liner-Regression/"
                       target="_blank"
                       size="sm"
-                      style={{
-                        backgroundColor: "#212121",
-                        alignItems: "center",
-                        color: "white",
-                        borderColor: "white",
-                      }}
+                      className="external_link_button"
                     >
                       <ExternalLinkLogo />
                       {" View Project"}
@@ -416,12 +371,7 @@ export const PortfolioScreen = () => {
                       href="https://github.com/dhruvam-zaveri/Diabetes-Detection"
                       target="_blank"
                       size="sm"
-                      style={{
-                        backgroundColor: "#212121",
-                        alignItems: "center",
-                        color: "white",
-                        borderColor: "white",
-                      }}
+                      className="external_link_button"
                     >
                       <ExternalLinkLogo />
                       {" View Project"}
@@ -453,12 +403,7 @@ export const PortfolioScreen = () => {
                       href="https://github.com/dhruvam-zaveri/Predicting-Air-Pollution-Levels"
                       target="_blank"
                       size="sm"
-                      style={{
-                        backgroundColor: "#212121",
-                        alignItems: "center",
-                        color: "white",
-                        borderColor: "white",
-                      }}
+                      className="external_link_button"
                     >
                       <ExternalLinkLogo />
                       {" View Project"}
@@ -487,12 +432,7 @@ export const PortfolioScreen = () => {
                       href="https://github.com/dhruvam-zaveri/ASCII-Chess"
                       target="_blank"
                       size="sm"
-                      style={{
-                        backgroundColor: "#212121",
-                        alignItems: "center",
-                        color: "white",
-                        borderColor: "white",
-                      }}
+                      className="external_link_button"
                     >
                       <ExternalLinkLogo />
                       {" View Project"}
@@ -519,12 +459,7 @@ export const PortfolioScreen = () => {
                       href="https://github.com/dhruvam-zaveri/Application-of-Liner-Regression/"
                       target="_blank"
                       size="sm"
-                      style={{
-                        backgroundColor: "#212121",
-                        alignItems: "center",
-                        color: "white",
-                        borderColor: "white",
-                      }}
+                      className="external_link_button"
                     >
                       <ExternalLinkLogo />
                       {" View Project"}
