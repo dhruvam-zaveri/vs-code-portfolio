@@ -2,6 +2,7 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Header from "./Components/Header.js";
+import Footer from "./Components/Footer.js";
 import TabBar from "./Components/TabBar.js";
 import SideBar from "./Components/SideBar.js";
 import FilesBar from "./Components/FilesBar.js";
@@ -27,6 +28,7 @@ const App = () => {
         <TabBar />
         <SideBar />
         <FilesBar />
+        <Footer />
       </React.StrictMode>
     </Router>
   );

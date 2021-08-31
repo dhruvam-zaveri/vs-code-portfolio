@@ -105,7 +105,7 @@ export const SideBar = () => {
           bottom: "0px",
         }}
       >
-        <Nav.Item className="pl-3 py-3 justify-content-end">
+        <Nav.Item className="pl-3 py-2 justify-content-end">
           <svg
             stroke="currentColor"
             fill="currentColor"
@@ -121,7 +121,7 @@ export const SideBar = () => {
             ></path>
           </svg>
         </Nav.Item>
-        <Nav.Item className="pl-3 py-3 justify-content-end">
+        <Nav.Item className="pl-3 pt-2 pb-5 justify-content-end">
           <svg
             stroke="currentColor"
             fill="currentColor"
