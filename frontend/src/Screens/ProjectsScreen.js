@@ -23,6 +23,27 @@ export const PortfolioScreen = () => {
         >
           <Row sm="auto" xs="auto" className="px-5 d-none d-sm-block"></Row>
         </Col>
+        <Col
+          xl="auto"
+          lg="auto"
+          md="auto"
+          sm="auto"
+          xs="auto"
+          className="d-none d-sm-block"
+        >
+          <Row sm="auto" xs="auto" className="px-5 d-none d-sm-block"></Row>
+        </Col>
+
+        <Col
+          xl="auto"
+          lg="auto"
+          md="auto"
+          sm="auto"
+          xs="auto"
+          className="d-none d-sm-block"
+        >
+          <Row sm="auto" xs="auto" className="px-1 d-none d-lg-block"></Row>
+        </Col>
 
         <Col xl="auto" lg="auto" md="auto" sm="auto" xs="auto">
           <Row sm="auto" xs="auto" className="px-5 d-none d-lg-block"></Row>
