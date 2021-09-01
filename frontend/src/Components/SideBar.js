@@ -121,7 +121,10 @@ export const SideBar = () => {
             ></path>
           </svg>
         </Nav.Item>
-        <Nav.Item className="pl-3 pt-2 pb-5 justify-content-end">
+        <Nav.Item
+          className="pl-3 pt-1 justify-content-end"
+          style={{ paddingBottom: "2.25rem" }}
+        >
           <svg
             stroke="currentColor"
             fill="currentColor"
