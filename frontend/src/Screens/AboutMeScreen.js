@@ -25,6 +25,19 @@ export const AboutMeScreen = () => {
         <Col xl="auto" lg="auto" md="auto" sm="auto" xs="auto">
           <Row sm="auto" xs="auto" className="px-5 d-none d-md-block"></Row>
         </Col>
+        <Col xl="auto" lg="auto" md="auto" sm="auto" xs="auto">
+          <Row sm="auto" xs="auto" className="px-5 d-none d-lg-block"></Row>
+        </Col>
+        <Col
+          xl="auto"
+          lg="auto"
+          md="auto"
+          sm="auto"
+          xs="auto"
+          className="d-none d-sm-block"
+        >
+          <Row sm="auto" xs="auto" className="px-5 d-none d-lg-block"></Row>
+        </Col>
         <Col>
           <Col className="py-4 about_me_page_title">Few things about me...</Col>
           <Row className="py-2 about_me_page_text">

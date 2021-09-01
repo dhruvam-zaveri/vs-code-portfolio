@@ -59,7 +59,7 @@ export const PortfolioScreen = () => {
           <ResponsiveMasonry
             columnsCountBreakPoints={{ 350: 1, 770: 2, 1000: 3 }}
           >
-            <Masonry gutter={30}>
+            <Masonry gutter={20}>
               <Card className="project_card">
                 <Card.Img src="./assets/project_img/proshop.jpg" flush />
                 <Card.Body>
@@ -628,6 +628,7 @@ export const PortfolioScreen = () => {
           </ResponsiveMasonry>
         </Col>
       </Row>
+      <Row className="p-4"></Row>
     </Container>
   );
 };

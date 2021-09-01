@@ -493,6 +493,7 @@ export const ResumeScreen = () => {
           </Row>
         </Col>
       </Row>
+      <Row className="p-3"></Row>
     </Container>
   );
 };
