@@ -258,11 +258,18 @@ export const PortfolioScreen = () => {
                     >
                       CSS
                     </Button>
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      className="technologies_btn"
+                    >
+                      Javascript
+                    </Button>
                   </Card.Text>
                   <Card.Text>
                     <Button
                       variant="dark"
-                      href="https://github.com/dhruvam-zaveri/Portfolio-website-prototype"
+                      href="https://photographer-portfolio-f5018.web.app/"
                       target="_blank"
                       size="sm"
                       className="external_link_button"
@@ -361,7 +368,7 @@ export const PortfolioScreen = () => {
                   <Card.Text>
                     <Button
                       variant="dark"
-                      href="https://github.com/dhruvam-zaveri/Old-portfolio-website"
+                      href="https://old-portfolio-dz.web.app/"
                       target="_blank"
                       size="sm"
                       className="external_link_button"

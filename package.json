@@ -1,9 +1,12 @@
 {
   "name": "portfolio-2",
   "version": "0.1.0",
-  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "14.x",
+    "npm": "6.x"
+  },
   "dependencies": {
-    "@material-ui/core": "^4.12.3",
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
@@ -17,7 +20,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "frontend": "npm start --prefix frontend"
+    "frontend": "npm start --prefix frontend",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
   },
   "eslintConfig": {
     "extends": [
