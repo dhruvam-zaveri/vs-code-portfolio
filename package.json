@@ -1,7 +1,7 @@
 {
   "name": "portfolio-2",
   "version": "0.1.0",
-  "homepage": "./frontend/src/index.js",
+  "homepage": "https://dhruvam-zaveri.github.io",
   "type": "module",
   "engines": {
     "node": "14.x",
@@ -21,8 +21,9 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy": "npm build",
+    "deploy": "gh-pages -d build",
     "frontend": "npm start --prefix frontend",
-    "heroku-postbuild": "npm install --prefix frontend && npm run build --prefix frontend",
     "start": "react-scripts start"
   },
   "eslintConfig": {
