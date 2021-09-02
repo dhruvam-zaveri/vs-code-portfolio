@@ -24,7 +24,8 @@
     "predeploy": "npm build",
     "deploy": "gh-pages -d build",
     "frontend": "npm start --prefix frontend",
-    "start": "react-scripts start"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
   },
   "eslintConfig": {
     "extends": [
