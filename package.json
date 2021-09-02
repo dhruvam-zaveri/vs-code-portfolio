@@ -22,7 +22,7 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "predeploy": "npm build",
+    "predeploy": "npm run build --prefix frontend",
     "deploy": "gh-pages -d build",
     "frontend": "npm start --prefix frontend",
     "start": "react-scripts start",
