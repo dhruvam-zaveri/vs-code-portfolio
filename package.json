@@ -23,7 +23,7 @@
   },
   "scripts": {
     "predeploy": "npm run build --prefix frontend",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build --prefix frontend",
     "frontend": "npm start --prefix frontend",
     "start": "react-scripts start",
     "build": "react-scripts build"
