@@ -1,7 +1,7 @@
 {
   "name": "portfolio-2",
   "version": "0.1.0",
-  "homepage": "./frontend/public/index.html",
+  "homepage": "./frontend/src/index.js",
   "type": "module",
   "engines": {
     "node": "14.x",
