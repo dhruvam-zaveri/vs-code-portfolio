@@ -5,7 +5,7 @@ import "./css/contactmepage.css";
 export const ContactMeScreen = () => {
   return (
     <Container
-      className="d-flex align-items-center page_content_alignment"
+      className="d-flex align-items-center page_content_alignment main_content_height"
       style={{
         color: "white",
         height: "100vh",

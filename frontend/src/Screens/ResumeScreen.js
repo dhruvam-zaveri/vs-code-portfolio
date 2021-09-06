@@ -5,7 +5,7 @@ import "./css/resumepage.css";
 export const ResumeScreen = () => {
   return (
     <Container
-      className="page_content_alignment"
+      className="page_content_alignment main_content_height"
       style={{
         color: "white",
         height: "100vh",

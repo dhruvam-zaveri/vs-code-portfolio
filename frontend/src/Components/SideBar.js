@@ -92,17 +92,7 @@ export const SideBar = () => {
         md="auto"
         sm="auto"
         xs="auto"
-        className="flex-column justify-content-end"
-        style={{
-          height: "50vh",
-          background: "#333333",
-          color: "#707070",
-          width: "60px",
-          position: "fixed",
-          top: "42vh",
-          left: "0px",
-          right: "0px",
-        }}
+        className="flex-column justify-content-end sidebar_lower_column"
       >
         <Nav.Item className="pl-3 py-3 justify-content-end">
           <svg

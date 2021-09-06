@@ -29,6 +29,21 @@ body {
   background-image: url(toggler.svg);
 }
 
+.sidebar_lower_column {
+  height: 50vh;
+  background: #333333;
+  color: #707070;
+  width: 60px;
+  position: fixed;
+  top: 50vh;
+  left: 0px;
+  right: 0px;
+}
+
+.main_content_height {
+  height: 100vh;
+}
+
 @media screen and (max-width: 768px) {
   .footer {
     padding-right: 24px;
@@ -41,5 +56,11 @@ body {
   }
   .files_bar_menu {
     height: inherit;
+  }
+  .sidebar_lower_column {
+    top: 42vh;
+  }
+  .main_content_height {
+    height: 92vh;
   }
 }

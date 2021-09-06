@@ -3,14 +3,15 @@ import { Row, Col, Container } from "react-bootstrap";
 import { ReactComponent as SVGImage } from "../Components/SVG/Hello.svg";
 import Typewriter from "typewriter-effect";
 import "./css/homepage.css";
+import "../index.css";
 
 export const HomeScreen = () => {
   return (
     <Container
-      className="d-flex align-items-center homepage_content_alignment"
+      className="d-flex align-items-center homepage_content_alignment main_content_height"
       style={{
         color: "white",
-        height: "92vh",
+        height: "100vh",
       }}
     >
       <Row>
