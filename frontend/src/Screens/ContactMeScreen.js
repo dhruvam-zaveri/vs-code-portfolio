@@ -5,10 +5,7 @@ import "../index.css";
 
 export const ContactMeScreen = () => {
   return (
-    <Container
-      className="d-flex align-items-center page_content_alignment main_content_height"
-      
-    >
+    <Container className="d-flex align-items-center page_content_alignment main_content_height">
       <Row>
         <Col
           xl="auto"

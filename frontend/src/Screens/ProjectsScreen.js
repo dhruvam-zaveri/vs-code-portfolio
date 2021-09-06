@@ -7,10 +7,7 @@ import "../index.css";
 
 export const PortfolioScreen = () => {
   return (
-    <Container
-      className="p-0 m-0 page_content_alignment main_content_height"
-     
-    >
+    <Container className="p-0 m-0 page_content_alignment main_content_height">
       <Row>
         <Col
           xl="auto"

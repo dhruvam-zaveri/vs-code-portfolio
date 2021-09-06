@@ -42,6 +42,7 @@ body {
 
 .main_content_height {
   height: 100vh;
+  color: white;
 }
 
 @media screen and (max-width: 768px) {
