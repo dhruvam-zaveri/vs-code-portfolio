@@ -20,6 +20,20 @@ body {
   padding-left: 0px;
 }
 
+.footer {
+  font-weight: bold;
+  padding-left: 3px;
+  padding-right: 9px;
+}
+.navbar-light .navbar-toggler-icon {
+  background-image: url(toggler.svg);
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    padding-right: 24px;
+  }
+}
 @media screen and (max-width: 577px) {
   .main_content_container {
     padding-left: 60px;

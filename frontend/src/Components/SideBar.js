@@ -102,7 +102,6 @@ export const SideBar = () => {
           top: "50vh",
           left: "0px",
           right: "0px",
-          bottom: "0px",
         }}
       >
         <Nav.Item className="pl-3 py-3 justify-content-end">

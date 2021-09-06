@@ -79,21 +79,23 @@ export const FilesBar = () => {
                 DHRUVAM ZAVERI
               </Navbar.Brand>
             </Container>
-            <Nav.Link href="/" className="p-0">
-              <File title="Home.js" logo={<JsLogo />} />
-            </Nav.Link>
-            <Nav.Link href="/aboutme" className="p-0">
-              <File title="About_Me.py" logo={<PyLogo />} />
-            </Nav.Link>
-            <Nav.Link href="/resume" className="p-0">
-              <File title="Resume.html" logo={<HTMLLogo />} />
-            </Nav.Link>
-            <Nav.Link href="/projects" className="p-0">
-              <File title="Projects.css" logo={<CSSLogo />} />
-            </Nav.Link>
-            <Nav.Link href="/contactme" className="p-0">
-              <File title="Contact_Me.json" logo={<JSONLogo />} />
-            </Nav.Link>
+            <Container style={{ height: "100vh" }}>
+              <Nav.Link href="/" className="p-0">
+                <File title="Home.js" logo={<JsLogo />} />
+              </Nav.Link>
+              <Nav.Link href="/aboutme" className="p-0">
+                <File title="About_Me.py" logo={<PyLogo />} />
+              </Nav.Link>
+              <Nav.Link href="/resume" className="p-0">
+                <File title="Resume.html" logo={<HTMLLogo />} />
+              </Nav.Link>
+              <Nav.Link href="/projects" className="p-0">
+                <File title="Projects.css" logo={<CSSLogo />} />
+              </Nav.Link>
+              <Nav.Link href="/contactme" className="p-0">
+                <File title="Contact_Me.json" logo={<JSONLogo />} />
+              </Nav.Link>
+            </Container>
           </Nav>
         </Navbar.Collapse>
       </Container>

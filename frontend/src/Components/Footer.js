@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import "../index.css";
 
 export const Footer = () => {
   return (
@@ -30,11 +31,7 @@ export const Footer = () => {
           md="auto"
           sm="auto"
           xs="auto"
-          style={{
-            fontWeight: "bold",
-            paddingLeft: "3px",
-            paddingRight: "9px",
-          }}
+          className="footer"
         >
           Dhruvam Zaveri
         </Col>
