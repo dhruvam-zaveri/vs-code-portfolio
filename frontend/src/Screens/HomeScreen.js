@@ -10,7 +10,7 @@ export const HomeScreen = () => {
       className="d-flex align-items-center homepage_content_alignment"
       style={{
         color: "white",
-        height: "100vh",
+        height: "92vh",
       }}
     >
       <Row>
