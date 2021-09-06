@@ -1,6 +1,7 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import "./css/aboutmepage.css";
+import "../index.css";
 
 export const AboutMeScreen = () => {
   return (

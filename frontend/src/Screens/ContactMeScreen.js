@@ -1,6 +1,7 @@
 import React from "react";
 import { Row, Col, Container, Nav } from "react-bootstrap";
 import "./css/contactmepage.css";
+import "../index.css";
 
 export const ContactMeScreen = () => {
   return (

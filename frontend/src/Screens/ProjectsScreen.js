@@ -3,6 +3,7 @@ import { Row, Col, Container, Card, Button } from "react-bootstrap";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 import { ExternalLinkLogo } from "../Components/Logos.js";
 import "./css/projectspage.css";
+import "../index.css";
 
 export const PortfolioScreen = () => {
   return (
