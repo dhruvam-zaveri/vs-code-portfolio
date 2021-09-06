@@ -99,7 +99,7 @@ export const SideBar = () => {
           color: "#707070",
           width: "60px",
           position: "fixed",
-          top: "50vh",
+          top: "45vh",
           left: "0px",
           right: "0px",
         }}
