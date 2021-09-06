@@ -7,10 +7,7 @@ export const AboutMeScreen = () => {
   return (
     <Container
       className="d-flex align-items-center page_content_alignment main_content_height"
-      style={{
-        color: "white",
-        height: "100vh",
-      }}
+      
     >
       <Row>
         <Col

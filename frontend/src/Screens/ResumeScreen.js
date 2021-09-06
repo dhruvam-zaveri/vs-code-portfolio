@@ -5,13 +5,7 @@ import "../index.css";
 
 export const ResumeScreen = () => {
   return (
-    <Container
-      className="page_content_alignment main_content_height"
-      style={{
-        color: "white",
-        height: "100vh",
-      }}
-    >
+    <Container className="page_content_alignment main_content_height">
       <Row>
         <Col
           xl="auto"

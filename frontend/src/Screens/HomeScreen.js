@@ -7,13 +7,7 @@ import "../index.css";
 
 export const HomeScreen = () => {
   return (
-    <Container
-      className="d-flex align-items-center homepage_content_alignment main_content_height"
-      style={{
-        color: "white",
-        height: "100vh",
-      }}
-    >
+    <Container className="d-flex align-items-center homepage_content_alignment main_content_height">
       <Row>
         <Col
           xl="auto"
