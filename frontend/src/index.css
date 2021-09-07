@@ -59,9 +59,9 @@ body {
   .files_bar_menu {
     height: inherit;
   }
-  .sidebar_lower_column {
+  /* .sidebar_lower_column {
     top: 42vh;
-  }
+  } */
   .main_content_height {
     height: 92vh;
   }
