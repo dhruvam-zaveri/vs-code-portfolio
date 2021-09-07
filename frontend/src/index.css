@@ -58,7 +58,7 @@ body {
   .files_bar_menu {
     height: inherit;
   }
-  .main_content_height {
+  /* .main_content_height {
     height: 92vh;
-  }
+  } */
 }
