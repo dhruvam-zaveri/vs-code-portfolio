@@ -35,10 +35,9 @@ body {
   color: #707070;
   width: 60px;
   position: fixed;
-  /* top: 50vh; */
   left: 0px;
   right: 0px;
-  bottom: 24px;
+  bottom: 16px;
 }
 
 .main_content_height {
@@ -59,9 +58,6 @@ body {
   .files_bar_menu {
     height: inherit;
   }
-  /* .sidebar_lower_column {
-    top: 42vh;
-  } */
   .main_content_height {
     height: 92vh;
   }
