@@ -22,7 +22,10 @@ export const SideBar = () => {
           right: "0px",
         }}
       >
-        <Nav.Item className="pl-3 py-3" style={{ color: "#FFFFFF" }}>
+        <Nav.Item
+          className="pl-3 py-3"
+          style={{ color: "#FFFFFF", borderLeft: "2px solid #fff" }}
+        >
           <svg
             stroke="currentColor"
             fill="currentColor"
@@ -94,7 +97,7 @@ export const SideBar = () => {
         xs="auto"
         className="flex-column justify-content-end sidebar_lower_column"
       >
-        <Nav.Item className="pl-3 py-3 justify-content-end">
+        <Nav.Item className="pl-3 py-2 justify-content-end">
           <svg
             stroke="currentColor"
             fill="currentColor"
@@ -110,7 +113,7 @@ export const SideBar = () => {
             ></path>
           </svg>
         </Nav.Item>
-        <Nav.Item className="pl-3 pt-1 justify-content-end" style={{}}>
+        <Nav.Item className="pl-3 py-3 justify-content-end">
           <svg
             stroke="currentColor"
             fill="currentColor"
