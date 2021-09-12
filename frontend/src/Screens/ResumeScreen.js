@@ -9,7 +9,6 @@ export const ResumeScreen = () => {
       className="page_content_alignment main_content_height"
       style={{
         color: "white",
-        // height: "100vh",
       }}
     >
       <Row>
@@ -49,8 +48,11 @@ export const ResumeScreen = () => {
           md="auto"
           sm="auto"
           xs="auto"
-          className="d-none d-sm-block"
+          className="d-none d-sm-block d-md-none"
         >
+          <Row sm="auto" xs="auto" className="px-1 d-none d-md-block"></Row>
+        </Col>
+        <Col xl="auto" lg="auto" md="auto" sm="auto" xs="auto">
           <Row sm="auto" xs="auto" className="px-5 d-none d-lg-block"></Row>
         </Col>
         <Col xl="auto" lg="auto" md="auto" sm="auto" xs="auto">
@@ -80,7 +82,7 @@ export const ResumeScreen = () => {
                     <svg
                       stroke="#fff"
                       fill="none"
-                      stroke-width="2"
+                      strokeWidth="2"
                       viewBox="0 0 24 24"
                       height="1em"
                       width="1em"
@@ -109,7 +111,7 @@ export const ResumeScreen = () => {
                     <svg
                       stroke="#fff"
                       fill="none"
-                      stroke-width="2"
+                      strokeWidth="2"
                       viewBox="0 0 24 24"
                       height="1em"
                       width="1em"
@@ -138,7 +140,7 @@ export const ResumeScreen = () => {
                     <svg
                       stroke="#fff"
                       fill="none"
-                      stroke-width="2"
+                      strokeWidth="2"
                       viewBox="0 0 24 24"
                       height="1em"
                       width="1em"
@@ -278,7 +280,7 @@ export const ResumeScreen = () => {
                     <svg
                       stroke="#fff"
                       fill="none"
-                      stroke-width="2"
+                      strokeWidth="2"
                       viewBox="0 0 24 24"
                       height="1em"
                       width="1em"
@@ -327,7 +329,7 @@ export const ResumeScreen = () => {
                     <svg
                       stroke="#fff"
                       fill="none"
-                      stroke-width="2"
+                      strokeWidth="2"
                       viewBox="0 0 24 24"
                       height="1em"
                       width="1em"
@@ -369,7 +371,7 @@ export const ResumeScreen = () => {
                     <svg
                       stroke="#fff"
                       fill="none"
-                      stroke-width="2"
+                      strokeWidth="2"
                       viewBox="0 0 24 24"
                       height="1em"
                       width="1em"
@@ -414,7 +416,7 @@ export const ResumeScreen = () => {
                     <svg
                       stroke="#fff"
                       fill="none"
-                      stroke-width="2"
+                      strokeWidth="2"
                       viewBox="0 0 24 24"
                       height="1em"
                       width="1em"
@@ -453,7 +455,7 @@ export const ResumeScreen = () => {
                     <svg
                       stroke="#fff"
                       fill="none"
-                      stroke-width="2"
+                      strokeWidth="2"
                       viewBox="0 0 24 24"
                       height="1em"
                       width="1em"
