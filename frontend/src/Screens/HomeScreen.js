@@ -25,6 +25,16 @@ export const HomeScreen = () => {
           md="auto"
           sm="auto"
           xs="auto"
+          className="	d-none d-sm-block d-md-none"
+        >
+          <Row sm="auto" xs="auto" className="px-1 d-none d-md-block"></Row>
+        </Col>
+        <Col
+          xl="auto"
+          lg="auto"
+          md="auto"
+          sm="auto"
+          xs="auto"
           className="d-none d-sm-block"
         >
           <Row sm="auto" xs="auto" className="px-5 d-none d-md-block"></Row>
