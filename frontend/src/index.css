@@ -29,6 +29,10 @@ body {
   background-image: url(toggler.svg);
 }
 
+button:focus {
+  outline: 1px dotted;
+}
+
 .sidebar_lower_column {
   height: 50vh;
   background: #333333;
