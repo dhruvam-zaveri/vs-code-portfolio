@@ -11,12 +11,17 @@ const HorizontalPadding = () => {
         sm="auto"
         className="px-5 d-none d-sm-block"
       ></Col>
-
       <Col
         lg="auto"
         md="auto"
         sm="auto"
         className="pr-5 d-none d-sm-block"
+      ></Col>
+      <Col
+        lg="auto"
+        md="auto"
+        sm="auto"
+        className="pr-1 d-none d-sm-block d-md-block d-lg-none"
       ></Col>
       <Col
         lg="auto"

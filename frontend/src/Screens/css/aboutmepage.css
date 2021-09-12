@@ -30,7 +30,7 @@
 
 @media screen and (max-width: 768px) {
   .page_content_alignment {
-    padding-left: 10px;
+    padding-left: 40px;
   }
   .about_me_page_title {
     font-size: 1.25rem;
@@ -70,7 +70,7 @@
 
 @media screen and (max-width: 576px) {
   .page_content_alignment {
-    padding-right: 40px;
+    /* padding-right: 40px; */
   }
 }
 
