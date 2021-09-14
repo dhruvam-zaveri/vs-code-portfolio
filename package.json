@@ -9,7 +9,7 @@
   "scripts": {
     "frontend": "npm start --prefix frontend",
     "start": "npm run start --prefix frontend",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend && cd ./frontend/build gzip *.js && gzip *.css"
   },
   "eslintConfig": {
     "extends": [
