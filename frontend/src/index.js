@@ -1,10 +1,10 @@
 import React from "react";
-import ReactDOMServer from "react-dom/server";
+import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
-ReactDOMServer.renderToStaticMarkup(
+ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
@@ -15,3 +15,4 @@ ReactDOMServer.renderToStaticMarkup(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+``
