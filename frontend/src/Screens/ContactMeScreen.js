@@ -97,7 +97,14 @@ export const ContactMeScreen = () => {
                   <Col>
                     <Row className="contact_title">Location:</Row>
                     <Row className="contact_subtitle">
-                      Vadodara, Gujarat, India
+                      <Nav.Link
+                        className="contact_subtitle"
+                        href="https://www.google.com/maps/place/Vadodara,+Gujarat/@22.3220876,73.1030459"
+                        target="_blank"
+                      >
+                        {" "}
+                        Vadodara, Gujarat, India{" "}
+                      </Nav.Link>
                     </Row>
                   </Col>
                 </Row>
@@ -133,7 +140,13 @@ export const ContactMeScreen = () => {
                       className="contact_subtitle"
                       style={{ overflow: "visible" }}
                     >
-                      dhruvamzaveri14@gmail.com
+                      <Nav.Link
+                        className="contact_subtitle"
+                        href="mailto:dhruvamzaveri14@gmail.com"
+                        target="_blank"
+                      >
+                        dhruvamzaveri14@gmail.com
+                      </Nav.Link>
                     </Row>
                   </Col>
                 </Row>
@@ -169,7 +182,15 @@ export const ContactMeScreen = () => {
                   </Col>
                   <Col>
                     <Row className="contact_title">LinkedIn:</Row>
-                    <Row className="contact_subtitle">Dhruvam Zaveri</Row>
+                    <Row>
+                      <Nav.Link
+                        className="contact_subtitle"
+                        href="https://www.linkedin.com/in/dhruvam-zaveri/"
+                        target="_blank"
+                      >
+                        Dhruvam Zaveri
+                      </Nav.Link>
+                    </Row>
                   </Col>
                 </Row>
                 <Row className="py-2">
@@ -200,7 +221,15 @@ export const ContactMeScreen = () => {
                   </Col>
                   <Col>
                     <Row className="contact_title">GitHub:</Row>
-                    <Row className="contact_subtitle">dhruvam-zaveri</Row>
+                    <Row>
+                      <Nav.Link
+                        className="contact_subtitle"
+                        href="https://github.com/dhruvam-zaveri/"
+                        target="_blank"
+                      >
+                        dhruvam-zaveri
+                      </Nav.Link>
+                    </Row>
                   </Col>
                 </Row>
               </Container>
