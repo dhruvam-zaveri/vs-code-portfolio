@@ -13,33 +13,48 @@ export const ContactMeScreen = () => {
           md="auto"
           sm="auto"
           xs="auto"
-          className="d-none d-sm-block"
-        >
-          <Row sm="auto" xs="auto" className="px-5 d-none d-sm-block"></Row>
-        </Col>
+          className="px"
+        ></Col>
         <Col
           xl="auto"
           lg="auto"
           md="auto"
           sm="auto"
           xs="auto"
-          className="d-none d-sm-block"
-        >
-          <Row sm="auto" xs="auto" className="px-5 d-none d-sm-block"></Row>
-        </Col>
+          className="px-5 d-none d-sm-block"
+        ></Col>
         <Col
           xl="auto"
           lg="auto"
           md="auto"
           sm="auto"
           xs="auto"
-          className="d-none d-sm-block"
-        >
-          <Row sm="auto" xs="auto" className="px-5 d-none d-md-block"></Row>
-        </Col>
-        <Col xl="auto" lg="auto" md="auto" sm="auto" xs="auto">
-          <Row sm="auto" xs="auto" className="px-5 d-none d-lg-block"></Row>
-        </Col>
+          className="px-5 d-none d-sm-block"
+        ></Col>
+        <Col
+          xl="auto"
+          lg="auto"
+          md="auto"
+          sm="auto"
+          xs="auto"
+          className="px-2 d-none d-sm-block"
+        ></Col>
+        <Col
+          xl="auto"
+          lg="auto"
+          md="auto"
+          sm="auto"
+          xs="auto"
+          className="px-5 d-none d-md-block"
+        ></Col>
+        <Col
+          xl="auto"
+          lg="auto"
+          md="auto"
+          sm="auto"
+          xs="auto"
+          className="px d-none d-xl-block"
+        ></Col>
         <Col>
           <Col className="py-1 page_title">Let's get in touch</Col>
           <Col className="pb-4 page_subtitle">
@@ -114,7 +129,10 @@ export const ContactMeScreen = () => {
                   </Col>
                   <Col>
                     <Row className="contact_title">Mail:</Row>
-                    <Row className="contact_subtitle">
+                    <Row
+                      className="contact_subtitle"
+                      style={{ overflow: "visible" }}
+                    >
                       dhruvamzaveri14@gmail.com
                     </Row>
                   </Col>
