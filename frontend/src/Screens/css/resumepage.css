@@ -151,6 +151,9 @@ ul {
   .section_title {
     font-size: 1rem;
   }
+  .main_content_container {
+    padding-right: 0;
+  }
 }
 
 @media screen and (max-width: 576px) {
