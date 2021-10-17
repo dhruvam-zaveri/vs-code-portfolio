@@ -29,15 +29,23 @@ export const AboutMeScreen = () => {
           md="auto"
           sm="auto"
           xs="auto"
-          className="px-4 d-none d-sm-block"
+          className="px-5 d-none d-sm-block"
         ></Col>
-        <Col
+        {/* <Col
           xl="auto"
           lg="auto"
           md="auto"
           sm="auto"
           xs="auto"
           className="px-5 d-none d-md-block"
+        ></Col> */}
+        {/* <Col
+          xl="auto"
+          lg="auto"
+          md="auto"
+          sm="auto"
+          xs="auto"
+          className="px-3 d-none d-md-block"
         ></Col>
         <Col
           xl="auto"
@@ -46,7 +54,7 @@ export const AboutMeScreen = () => {
           sm="auto"
           xs="auto"
           className="px-3 d-none d-xl-block"
-        ></Col>
+        ></Col> */}
         {/* <Col
           xl="auto"
           lg="auto"
@@ -80,7 +88,7 @@ export const AboutMeScreen = () => {
         >
           <Row sm="auto" xs="auto" className="px-5 d-none d-lg-block"></Row>
         </Col> */}
-        <Col>
+        <Col className="content_col">
           <Col className="py-4 about_me_page_title">Few things about me...</Col>
           <Row className="py-2 about_me_page_text">
             👋🏽 Hi, my name is Dhruvam.
@@ -94,8 +102,8 @@ export const AboutMeScreen = () => {
             creative projects.
           </Row>
           <Row className="py-2 about_me_page_text">
-            📚 I've developed several projects using various technologies to
-            widen my knowledge and abilities.
+            📚 Developed several projects using various technologies to widen my
+            knowledge and abilities.
           </Row>
           <Row className="py-2 about_me_page_text">
             💻 Talking about my future, I hope to one day work as a Software
