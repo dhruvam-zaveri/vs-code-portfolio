@@ -18,6 +18,46 @@ export const ResumeScreen = () => {
           md="auto"
           sm="auto"
           xs="auto"
+          className="px-4"
+        ></Col>
+        <Col
+          xl="auto"
+          lg="auto"
+          md="auto"
+          sm="auto"
+          xs="auto"
+          className="px-5 d-none d-sm-block"
+        ></Col>
+        <Col
+          xl="auto"
+          lg="auto"
+          md="auto"
+          sm="auto"
+          xs="auto"
+          className="px-5 d-none d-sm-block"
+        ></Col>
+        <Col
+          xl="auto"
+          lg="auto"
+          md="auto"
+          sm="auto"
+          xs="auto"
+          className="px d-none d-md-block"
+        ></Col>
+        <Col
+          xl="auto"
+          lg="auto"
+          md="auto"
+          sm="auto"
+          xs="auto"
+          className="px-3 d-none d-xl-block"
+        ></Col>
+        {/* <Col
+          xl="auto"
+          lg="auto"
+          md="auto"
+          sm="auto"
+          xs="auto"
           className="d-none d-sm-block"
         >
           <Row sm="auto" xs="auto" className="px-5 d-none d-sm-block"></Row>
@@ -57,15 +97,15 @@ export const ResumeScreen = () => {
         </Col>
         <Col xl="auto" lg="auto" md="auto" sm="auto" xs="auto">
           <Row sm="auto" xs="auto" className="px-1 d-none d-lg-block"></Row>
-        </Col>
+        </Col> */}
         <Col>
-          <Col className="py-1 resume_page_title">RESUME</Col>
+          <Col className="pt-3 pb-1 resume_page_title">RESUME</Col>
           <Col className="personal_statement">
             An enthusiastic, confident, and passionate learner, always eager to
             explore new areas for defining potential and enhance skills to gain
             deeper knowledge and experience.
           </Col>
-          <Row className="py-2">
+          <Row className="py-2 content_row">
             <Col xl={6} lg={6} sm={12} xs={12}>
               <Row className="section_title">Education</Row>
 
@@ -173,7 +213,7 @@ export const ResumeScreen = () => {
               <Col className="section_content">
                 <Row className="edu_title">Programming Languages</Row>
                 <Row>
-                  <Row className="work_description p-0 m-0">
+                  <Row className="skill p-0 m-0">
                     <ul>
                       <li>Python</li>
                       <li>Dart</li>
@@ -189,7 +229,7 @@ export const ResumeScreen = () => {
               <Col className="section_content">
                 <Row className="edu_title">Prototyping and UI designing</Row>
                 <Row>
-                  <Row className="work_description p-0 m-0">
+                  <Row className="skill p-0 m-0">
                     <ul>
                       <li>Adobe XD</li>
                     </ul>
@@ -200,7 +240,7 @@ export const ResumeScreen = () => {
               <Col className="section_content">
                 <Row className="edu_title">Frontend</Row>
                 <Row>
-                  <Row className="work_description p-0 m-0">
+                  <Row className="skill p-0 m-0">
                     <ul>
                       <li>React.JS</li>
                       <li>Material UI</li>
@@ -216,7 +256,7 @@ export const ResumeScreen = () => {
               <Col className="section_content">
                 <Row className="edu_title">Backend</Row>
                 <Row>
-                  <Row className="work_description p-0 m-0">
+                  <Row className="skill p-0 m-0">
                     <ul>
                       <li>Express.JS</li>
                       <li>Node.JS</li>
@@ -230,7 +270,7 @@ export const ResumeScreen = () => {
               <Col className="section_content">
                 <Row className="edu_title">Database</Row>
                 <Row>
-                  <Row className="work_description p-0 m-0">
+                  <Row className="skill p-0 m-0">
                     <ul>
                       <li>MongoDB</li>
                       <li>CouchDB</li>
@@ -243,7 +283,7 @@ export const ResumeScreen = () => {
               <Col className="section_content">
                 <Row className="edu_title">Version Control</Row>
                 <Row>
-                  <Row className="work_description p-0 m-0">
+                  <Row className="skill p-0 m-0">
                     <ul>
                       <li>Git</li>
                       <li>GitHub</li>
@@ -255,7 +295,7 @@ export const ResumeScreen = () => {
               <Col className="section_content pb-0">
                 <Row className="edu_title">Mobile App development</Row>
                 <Row>
-                  <Row className="work_description p-0 m-0">
+                  <Row className="skill p-0 m-0">
                     <ul>
                       <li>Flutter</li>
                     </ul>

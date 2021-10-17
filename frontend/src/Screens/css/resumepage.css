@@ -3,6 +3,13 @@
   border-color: #212121;
 }
 
+ul {
+  padding-left: 20px;
+}
+.work_description > ul {
+  padding-left: 0;
+}
+
 .page_content_alignment {
   padding-left: 0px;
 }
@@ -12,11 +19,6 @@
   font-weight: bold;
   font-size: 2.25rem;
   text-align: center;
-}
-
-.resume_page_text {
-  font-weight: 300;
-  font-size: 1rem;
 }
 
 .personal_statement {
@@ -84,6 +86,10 @@
   text-transform: uppercase;
 }
 
+.skill {
+  font-size: 0.85rem;
+}
+
 .work_description {
   font-size: 0.85rem;
 }
@@ -96,15 +102,15 @@
 }
 
 /* Tablet View */
-@media screen and (max-width: 992px) and (min-width: 768px) {
+@media screen and (max-width: 992px) {
   .page_content_alignment {
     padding-left: 10px;
   }
   .resume_page_title {
     font-size: 1.35rem;
   }
-  .resume_page_text {
-    font-size: 0.9rem;
+  .section_title {
+    font-size: 1.25rem;
   }
 }
 
@@ -115,8 +121,8 @@
   .resume_page_title {
     font-size: 1.25rem;
   }
-  .resume_page_text {
-    font-size: 0.8rem;
+  .section_title {
+    font-size: 1.1rem;
   }
 }
 
@@ -142,9 +148,8 @@
   .resume_page_title {
     font-size: 1.15rem;
   }
-
-  .resume_page_text {
-    font-size: 0.75rem;
+  .section_title {
+    font-size: 1rem;
   }
 }
 
@@ -152,10 +157,13 @@
   .page_content_alignment {
     padding-right: 40px;
   }
+  .content_row {
+    width: 60vw;
+  }
 }
 
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 375px) {
   .page_content_alignment {
-    padding-left: 10px;
+    padding-left: 30px;
   }
 }
