@@ -53,3 +53,14 @@ const App = () => {
 };
 
 export default App;
+
+/*
+  for displaying content based on breakpoint: https://mdbootstrap.com/docs/react/utilities/display/
+*/
+/*
+  xl - infinity to 1200 (done)
+  lg - 1199 to 992 (done)
+  md - 991 to 768 (done)
+  sm - 767 to 576 (done)
+  xs - 575 to least 
+*/

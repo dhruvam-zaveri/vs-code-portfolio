@@ -13,6 +13,46 @@ export const AboutMeScreen = () => {
           md="auto"
           sm="auto"
           xs="auto"
+          className="px-4"
+        ></Col>
+        <Col
+          xl="auto"
+          lg="auto"
+          md="auto"
+          sm="auto"
+          xs="auto"
+          className="px-5 d-none d-sm-block"
+        ></Col>
+        <Col
+          xl="auto"
+          lg="auto"
+          md="auto"
+          sm="auto"
+          xs="auto"
+          className="px-4 d-none d-sm-block"
+        ></Col>
+        <Col
+          xl="auto"
+          lg="auto"
+          md="auto"
+          sm="auto"
+          xs="auto"
+          className="px-5 d-none d-md-block"
+        ></Col>
+        <Col
+          xl="auto"
+          lg="auto"
+          md="auto"
+          sm="auto"
+          xs="auto"
+          className="px-3 d-none d-xl-block"
+        ></Col>
+        {/* <Col
+          xl="auto"
+          lg="auto"
+          md="auto"
+          sm="auto"
+          xs="auto"
           className="d-none d-sm-block"
         >
           <Row sm="auto" xs="auto" className="px-5 d-none d-sm-block"></Row>
@@ -39,7 +79,7 @@ export const AboutMeScreen = () => {
           className="d-none d-sm-block"
         >
           <Row sm="auto" xs="auto" className="px-5 d-none d-lg-block"></Row>
-        </Col>
+        </Col> */}
         <Col>
           <Col className="py-4 about_me_page_title">Few things about me...</Col>
           <Row className="py-2 about_me_page_text">

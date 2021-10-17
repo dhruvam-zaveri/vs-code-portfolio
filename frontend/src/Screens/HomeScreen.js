@@ -15,33 +15,40 @@ export const HomeScreen = () => {
           md="auto"
           sm="auto"
           xs="auto"
-          className="d-none d-sm-block"
-        >
-          <Row sm="auto" xs="auto" className="px-5 d-none d-sm-block"></Row>
-        </Col>
+          className="px-4"
+        ></Col>
         <Col
           xl="auto"
           lg="auto"
           md="auto"
           sm="auto"
           xs="auto"
-          className="	d-none d-sm-block d-md-none"
-        >
-          <Row sm="auto" xs="auto" className="px-1 d-none d-md-block"></Row>
-        </Col>
+          className="px-5 d-none d-sm-block"
+        ></Col>
         <Col
           xl="auto"
           lg="auto"
           md="auto"
           sm="auto"
           xs="auto"
-          className="d-none d-sm-block"
-        >
-          <Row sm="auto" xs="auto" className="px-5 d-none d-md-block"></Row>
-        </Col>
-        <Col xl="auto" lg="auto" md="auto" sm="auto" xs="auto">
-          <Row sm="auto" xs="auto" className="px-5 d-none d-md-block"></Row>
-        </Col>
+          className="px-1 d-none d-sm-block"
+        ></Col>
+        <Col
+          xl="auto"
+          lg="auto"
+          md="auto"
+          sm="auto"
+          xs="auto"
+          className="px-5 d-none d-md-block"
+        ></Col>
+        <Col
+          xl="auto"
+          lg="auto"
+          md="auto"
+          sm="auto"
+          xs="auto"
+          className="px-5 d-none d-xl-block"
+        ></Col>
         <Col>
           <Row>
             <Col className="d-flex align-items-center" xl={5} lg={5}>

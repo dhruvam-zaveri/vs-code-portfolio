@@ -1,5 +1,5 @@
 .homepage_content_alignment {
-  padding-left: 60px;
+  padding-left: 100px;
 }
 
 .homepage_main_title {
@@ -23,20 +23,20 @@
 }
 @media screen and (max-width: 992px) and (min-width: 770px) {
   .homepage_svg {
-    width: 35vw;
+    width: 33vw;
   }
 }
 
 /* Tablet View */
 @media screen and (max-width: 769px) and (min-width: 697px) {
   .homepage_svg {
-    width: 35vw;
+    width: 33vw;
   }
 }
 
 @media screen and (max-width: 697px) and (min-width: 426px) {
   .homepage_svg {
-    width: 40vw;
+    width: 37vw;
   }
 }
 @media screen and (max-width: 495px) and (min-width: 426px) {
