@@ -62,6 +62,56 @@ export const PortfolioScreen = () => {
           >
             <Masonry gutter={20}>
               <Card className="project_card">
+                <Card.Img src="./assets/project_img/vscode.jpg" flush />
+                <Card.Body>
+                  <Card.Title>VSCode themed portfolio website</Card.Title>
+                  <Card.Text>You are viewing the project right now.</Card.Text>
+                  <Card.Text>
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      className="technologies_btn"
+                    >
+                      React.JS
+                    </Button>
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      className="technologies_btn"
+                    >
+                      ReactBootstrap
+                    </Button>
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      className="technologies_btn"
+                    >
+                      Heroku
+                    </Button>
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      className="technologies_btn"
+                    >
+                      AdobeXD
+                    </Button>
+                  </Card.Text>
+                  <Card.Text>
+                    <Button
+                      variant="dark"
+                      href="https://pdhruvam-zaveri.codes"
+                      target="_blank"
+                      size="sm"
+                      className="external_link_button"
+                    >
+                      <ExternalLinkLogo />
+                      {" View Project"}
+                    </Button>
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+
+              <Card className="project_card">
                 <Card.Img src="./assets/project_img/proshop.jpg" flush />
                 <Card.Body>
                   <Card.Title>Proshop</Card.Title>
