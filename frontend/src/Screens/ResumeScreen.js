@@ -106,206 +106,45 @@ export const ResumeScreen = () => {
             deeper knowledge and experience.
           </Col>
           <Row className="py-2 content_row">
-            <Col xl={6} lg={6} sm={12} xs={12}>
-              <Row className="section_title">Education</Row>
-
-              <Col className="section_content pb-4">
-                <Row className="edu_title">
-                  B.tech Computer Science and Engineering
-                </Row>
-                <Row>
-                  Charotar University of Science and Technology
-                  <Button
-                    href="https://www.charusat.ac.in/"
-                    className="external_link"
-                  >
-                    <svg
-                      stroke="#fff"
-                      fill="none"
-                      strokeWidth="2"
-                      viewBox="0 0 24 24"
-                      height="1em"
-                      width="1em"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-                      <polyline points="15 3 21 3 21 9"></polyline>
-                      <line x1="10" y1="14" x2="21" y2="3"></line>
-                    </svg>
-                  </Button>
-                </Row>
-                <Row className="date">Jul 2018 - Present</Row>
-                <Row className="edu_grade">CGPA: 9.43 as of 6th Semester</Row>
-              </Col>
-
-              <Col className="section_content pb-4">
-                <Row className="edu_title">
-                  Higher Secondary Schooling (12th grade)
-                </Row>
-                <Row>
-                  Baroda High School, Alkapuri
-                  <Button
-                    href="https://www.barodahighschool.com/"
-                    className="external_link"
-                  >
-                    <svg
-                      stroke="#fff"
-                      fill="none"
-                      strokeWidth="2"
-                      viewBox="0 0 24 24"
-                      height="1em"
-                      width="1em"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-                      <polyline points="15 3 21 3 21 9"></polyline>
-                      <line x1="10" y1="14" x2="21" y2="3"></line>
-                    </svg>
-                  </Button>
-                </Row>
-                <Row className="date">Jun 2017 - Apr 2018</Row>
-                <Row className="edu_grade">Percentage: 75%</Row>
-              </Col>
-
-              <Col className="section_content pb-0">
-                <Row className="edu_title">
-                  Secondary Schooling (10th grade)
-                </Row>
-                <Row>
-                  Baroda High School, Alkapuri
-                  <Button
-                    href="https://www.barodahighschool.com/"
-                    className="external_link"
-                  >
-                    <svg
-                      stroke="#fff"
-                      fill="none"
-                      strokeWidth="2"
-                      viewBox="0 0 24 24"
-                      height="1em"
-                      width="1em"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-                      <polyline points="15 3 21 3 21 9"></polyline>
-                      <line x1="10" y1="14" x2="21" y2="3"></line>
-                    </svg>
-                  </Button>
-                </Row>
-                <Row className="date">Jun 2015 - Apr 2016</Row>
-                <Row className="edu_grade">Percentage: 73%</Row>
-              </Col>
-
-              <Row className="section_title">Skills</Row>
-
-              <Col className="section_content">
-                <Row className="edu_title">
-                  Verbal and non-verbal communication
-                </Row>
-              </Col>
-
-              <Col className="section_content">
-                <Row className="edu_title">
-                  Basic understanding of Machine Learning
-                </Row>
-              </Col>
-
-              <Col className="section_content">
-                <Row className="edu_title">Programming Languages</Row>
-                <Row>
-                  <Row className="skill p-0 m-0">
-                    <ul>
-                      <li>Python</li>
-                      <li>Dart</li>
-                      <li>Javascript</li>
-                      <li>C</li>
-                      <li>C++</li>
-                      <li>Java</li>
-                    </ul>
-                  </Row>
-                </Row>
-              </Col>
-
-              <Col className="section_content">
-                <Row className="edu_title">Prototyping and UI designing</Row>
-                <Row>
-                  <Row className="skill p-0 m-0">
-                    <ul>
-                      <li>Adobe XD</li>
-                    </ul>
-                  </Row>
-                </Row>
-              </Col>
-
-              <Col className="section_content">
-                <Row className="edu_title">Frontend</Row>
-                <Row>
-                  <Row className="skill p-0 m-0">
-                    <ul>
-                      <li>React.JS</li>
-                      <li>Material UI</li>
-                      <li>React-bootstrap</li>
-                      <li>HTML</li>
-                      <li>CSS</li>
-                      <li>Bootstrap</li>
-                    </ul>
-                  </Row>
-                </Row>
-              </Col>
-
-              <Col className="section_content">
-                <Row className="edu_title">Backend</Row>
-                <Row>
-                  <Row className="skill p-0 m-0">
-                    <ul>
-                      <li>Express.JS</li>
-                      <li>Node.JS</li>
-                      <li>Mongoose</li>
-                      <li>Flask</li>
-                    </ul>
-                  </Row>
-                </Row>
-              </Col>
-
-              <Col className="section_content">
-                <Row className="edu_title">Database</Row>
-                <Row>
-                  <Row className="skill p-0 m-0">
-                    <ul>
-                      <li>MongoDB</li>
-                      <li>CouchDB</li>
-                      <li>Firebase</li>
-                    </ul>
-                  </Row>
-                </Row>
-              </Col>
-
-              <Col className="section_content">
-                <Row className="edu_title">Version Control</Row>
-                <Row>
-                  <Row className="skill p-0 m-0">
-                    <ul>
-                      <li>Git</li>
-                      <li>GitHub</li>
-                    </ul>
-                  </Row>
-                </Row>
-              </Col>
-
-              <Col className="section_content pb-0">
-                <Row className="edu_title">Mobile App development</Row>
-                <Row>
-                  <Row className="skill p-0 m-0">
-                    <ul>
-                      <li>Flutter</li>
-                    </ul>
-                  </Row>
-                </Row>
-              </Col>
-            </Col>
-
-            <Col xl={6} lg={6} sm={12} xs={12}>
+            <Col xl={7} lg={7} sm={12} xs={12}>
               <Row className="section_title">Work Experience</Row>
+
+              <Col className="section_content">
+                <Row className="work_title">Internship traniee</Row>
+                <Row>
+                  Motorola Solutions, India
+                  <Button
+                    href="https://www.linkedin.com/company/motorolasolutions/"
+                    className="external_link"
+                  >
+                    <svg
+                      stroke="#fff"
+                      fill="none"
+                      strokeWidth="2"
+                      viewBox="0 0 24 24"
+                      height="1em"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                      <polyline points="15 3 21 3 21 9"></polyline>
+                      <line x1="10" y1="14" x2="21" y2="3"></line>
+                    </svg>
+                  </Button>
+                </Row>
+                <Row className="date">May 2021 - Jul 2021</Row>
+                <Row className="work_description p-0 m-0">
+                  <ul>
+                    <li>
+                      Optmizing the architecture for an existing product to
+                      reduce the execution time as a part of SRE team.
+                    </li>
+                    <li>
+                      Automating server configuration as a part of DevOps team.
+                    </li>
+                  </ul>
+                </Row>
+              </Col>
 
               <Col className="section_content">
                 <Row className="work_title">
@@ -530,9 +369,229 @@ export const ResumeScreen = () => {
                   </ul>
                 </Row>
               </Col>
+              <Row className="section_title">Projects</Row>
+              <Col className="section_content pb-4">
+                <Row className="edu_title">
+                  All the projects developed my me
+                </Row>
+                <Row>
+                  Visit the projects.css page to view all my projects{" "}
+                  <Button href="/projects" className="external_link">
+                    <svg
+                      stroke="#fff"
+                      fill="none"
+                      strokeWidth="2"
+                      viewBox="0 0 24 24"
+                      height="1em"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                      <polyline points="15 3 21 3 21 9"></polyline>
+                      <line x1="10" y1="14" x2="21" y2="3"></line>
+                    </svg>
+                  </Button>
+                </Row>
+              </Col>
             </Col>
 
-            <Col xl={6} lg={6} sm={12} xs={12}></Col>
+            <Col xl={5} lg={5} sm={12} xs={12}>
+              <Row className="section_title">Education</Row>
+
+              <Col className="section_content pb-4">
+                <Row className="edu_title">
+                  B.tech Computer Science and Engineering
+                </Row>
+                <Row>
+                  Charotar University of Science and Technology
+                  <Button
+                    href="https://www.charusat.ac.in/"
+                    className="external_link"
+                  >
+                    <svg
+                      stroke="#fff"
+                      fill="none"
+                      strokeWidth="2"
+                      viewBox="0 0 24 24"
+                      height="1em"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                      <polyline points="15 3 21 3 21 9"></polyline>
+                      <line x1="10" y1="14" x2="21" y2="3"></line>
+                    </svg>
+                  </Button>
+                </Row>
+                <Row className="date">Jul 2018 - Present</Row>
+                <Row className="edu_grade">CGPA: 9.43 as of 6th Semester</Row>
+              </Col>
+
+              <Col className="section_content pb-4">
+                <Row className="edu_title">
+                  Higher Secondary Schooling (12th grade)
+                </Row>
+                <Row>
+                  Baroda High School, Alkapuri
+                  <Button
+                    href="https://www.barodahighschool.com/"
+                    className="external_link"
+                  >
+                    <svg
+                      stroke="#fff"
+                      fill="none"
+                      strokeWidth="2"
+                      viewBox="0 0 24 24"
+                      height="1em"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                      <polyline points="15 3 21 3 21 9"></polyline>
+                      <line x1="10" y1="14" x2="21" y2="3"></line>
+                    </svg>
+                  </Button>
+                </Row>
+                <Row className="date">Jun 2017 - Apr 2018</Row>
+                <Row className="edu_grade">Percentage: 75%</Row>
+              </Col>
+
+              <Col className="section_content pb-0">
+                <Row className="edu_title">
+                  Secondary Schooling (10th grade)
+                </Row>
+                <Row>
+                  Baroda High School, Alkapuri
+                  <Button
+                    href="https://www.barodahighschool.com/"
+                    className="external_link"
+                  >
+                    <svg
+                      stroke="#fff"
+                      fill="none"
+                      strokeWidth="2"
+                      viewBox="0 0 24 24"
+                      height="1em"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                      <polyline points="15 3 21 3 21 9"></polyline>
+                      <line x1="10" y1="14" x2="21" y2="3"></line>
+                    </svg>
+                  </Button>
+                </Row>
+                <Row className="date">Jun 2015 - Apr 2016</Row>
+                <Row className="edu_grade">Percentage: 73%</Row>
+              </Col>
+
+              <Row className="section_title">Skills</Row>
+
+              <Col className="section_content">
+                <Row className="edu_title">
+                  Verbal and non-verbal communication
+                </Row>
+              </Col>
+
+              <Col className="section_content">
+                <Row className="edu_title">
+                  Basic understanding of Machine Learning
+                </Row>
+              </Col>
+
+              <Col className="section_content">
+                <Row className="edu_title">Programming Languages</Row>
+                <Row>
+                  <Row className="skill p-0 m-0">
+                    <ul>
+                      <li>Python</li>
+                      <li>Dart</li>
+                      <li>Javascript</li>
+                      <li>C</li>
+                      <li>C++</li>
+                      <li>Java</li>
+                    </ul>
+                  </Row>
+                </Row>
+              </Col>
+
+              <Col className="section_content">
+                <Row className="edu_title">Prototyping and UI designing</Row>
+                <Row>
+                  <Row className="skill p-0 m-0">
+                    <ul>
+                      <li>Adobe XD</li>
+                    </ul>
+                  </Row>
+                </Row>
+              </Col>
+
+              <Col className="section_content">
+                <Row className="edu_title">Frontend</Row>
+                <Row>
+                  <Row className="skill p-0 m-0">
+                    <ul>
+                      <li>React.JS</li>
+                      <li>Material UI</li>
+                      <li>React-bootstrap</li>
+                      <li>HTML</li>
+                      <li>CSS</li>
+                      <li>Bootstrap</li>
+                    </ul>
+                  </Row>
+                </Row>
+              </Col>
+
+              <Col className="section_content">
+                <Row className="edu_title">Backend</Row>
+                <Row>
+                  <Row className="skill p-0 m-0">
+                    <ul>
+                      <li>Express.JS</li>
+                      <li>Node.JS</li>
+                      <li>Mongoose</li>
+                      <li>Flask</li>
+                    </ul>
+                  </Row>
+                </Row>
+              </Col>
+
+              <Col className="section_content">
+                <Row className="edu_title">Database</Row>
+                <Row>
+                  <Row className="skill p-0 m-0">
+                    <ul>
+                      <li>MongoDB</li>
+                      <li>CouchDB</li>
+                      <li>Firebase</li>
+                    </ul>
+                  </Row>
+                </Row>
+              </Col>
+
+              <Col className="section_content">
+                <Row className="edu_title">Version Control</Row>
+                <Row>
+                  <Row className="skill p-0 m-0">
+                    <ul>
+                      <li>Git</li>
+                      <li>GitHub</li>
+                    </ul>
+                  </Row>
+                </Row>
+              </Col>
+
+              <Col className="section_content pb-0">
+                <Row className="edu_title">Mobile App development</Row>
+                <Row>
+                  <Row className="skill p-0 m-0">
+                    <ul>
+                      <li>Flutter</li>
+                    </ul>
+                  </Row>
+                </Row>
+              </Col>
+            </Col>
           </Row>
         </Col>
       </Row>

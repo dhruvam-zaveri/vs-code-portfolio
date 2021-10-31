@@ -1,5 +1,6 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
+import "../index.css";
 
 export const File = ({ title, logo }) => {
   return (
@@ -26,8 +27,7 @@ export const File = ({ title, logo }) => {
           md="auto"
           sm="auto"
           xs="auto"
-          className="d-flex justify-content-center pr-4 pl-1"
-          style={{ fontSize: 12 }}
+          className="d-flex justify-content-center pr-4 pl-1 filebar_link"
         >
           {title}
         </Col>
