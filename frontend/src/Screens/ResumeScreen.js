@@ -554,16 +554,30 @@ export const ResumeScreen = () => {
               </Col>
 
               <Col className="section_content">
-                <Row className="edu_title">Programming Languages</Row>
+                <Row className="edu_title">Languages</Row>
                 <Row>
                   <Row className="skill p-0 m-0">
                     <ul>
                       <li>Python</li>
+                      <li>Bicep</li>
+                      <li>Ansible</li>
                       <li>Dart</li>
                       <li>Javascript</li>
                       <li>C</li>
                       <li>C++</li>
                       <li>Java</li>
+                    </ul>
+                  </Row>
+                </Row>
+              </Col>
+
+              <Col className="section_content">
+                <Row className="edu_title">Cloud Platforms</Row>
+                <Row>
+                  <Row className="skill p-0 m-0">
+                    <ul>
+                      <li>Microsoft Azure</li>
+                      <li>AWS</li>
                     </ul>
                   </Row>
                 </Row>
