@@ -173,7 +173,7 @@ export const ResumeScreen = () => {
                     </svg>
                   </Button>
                 </Row>
-                <Row className="date">May 2021 - Jul 2021</Row>
+                <Row className="date">Jul 2021 - Apr 2022</Row>
                 <Row className="work_description p-0 m-0">
                   <ul>
                     <li>
