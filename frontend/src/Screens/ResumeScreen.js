@@ -108,6 +108,47 @@ export const ResumeScreen = () => {
           <Row className="py-2 content_row">
             <Col xl={7} lg={7} sm={12} xs={12}>
               <Row className="section_title">Work Experience</Row>
+              <Col className="section_content">
+                <Row className="work_title">Software Engineer</Row>
+                <Row>
+                  Motorola Solutions, India
+                  <Button
+                    href="https://www.linkedin.com/company/motorolasolutions/"
+                    className="external_link"
+                  >
+                    <svg
+                      stroke="#fff"
+                      fill="none"
+                      strokeWidth="2"
+                      viewBox="0 0 24 24"
+                      height="1em"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                      <polyline points="15 3 21 3 21 9"></polyline>
+                      <line x1="10" y1="14" x2="21" y2="3"></line>
+                    </svg>
+                  </Button>
+                </Row>
+                <Row className="date">May 2022 - Present</Row>
+                <Row className="work_description p-0 m-0">
+                  <ul>
+                    <li>
+                      Improved container upgrade time by 20% in Product
+                      automation (DevOps) team.
+                    </li>
+                    <li>
+                      Developing an automated tool to spin up, manage and
+                      deallocate multi site K8s clusters as well as other
+                      supporting resources from multiple cloud providers like
+                      Azure and AWS (Cloud Infrastructure team).
+                    </li>
+                  </ul>
+                </Row>
+              </Col>
+
+              <Row className="section_title">Internships</Row>
 
               <Col className="section_content">
                 <Row className="work_title">Internship traniee</Row>
@@ -136,11 +177,23 @@ export const ResumeScreen = () => {
                 <Row className="work_description p-0 m-0">
                   <ul>
                     <li>
-                      Optmizing the architecture for an existing product to
-                      reduce the execution time as a part of SRE team.
+                      Optimized the architecture for an existing product
+                      consisting of 2 system modules as a part of Site
+                      Reliability team.
                     </li>
                     <li>
-                      Automating server configuration as a part of DevOps team.
+                      Reduced subscriber provisioning time on one module
+                      consisting of 7 subroutines of an existing product by
+                      120%.
+                    </li>
+                    <li>
+                      Orchestrated server cluster configuration with multiple
+                      VMs as well as micro services configuration automation as
+                      a part of the DevOps team.
+                    </li>
+                    <li>
+                      Improved container launch time for fresh installation by
+                      25% in Product automation (DevOps) team.
                     </li>
                   </ul>
                 </Row>
@@ -369,30 +422,6 @@ export const ResumeScreen = () => {
                   </ul>
                 </Row>
               </Col>
-              <Row className="section_title">Projects</Row>
-              <Col className="section_content pb-4">
-                <Row className="edu_title">
-                  All the projects developed my me
-                </Row>
-                <Row>
-                  Visit the projects.css page to view all my projects{" "}
-                  <Button href="/projects" className="external_link">
-                    <svg
-                      stroke="#fff"
-                      fill="none"
-                      strokeWidth="2"
-                      viewBox="0 0 24 24"
-                      height="1em"
-                      width="1em"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-                      <polyline points="15 3 21 3 21 9"></polyline>
-                      <line x1="10" y1="14" x2="21" y2="3"></line>
-                    </svg>
-                  </Button>
-                </Row>
-              </Col>
             </Col>
 
             <Col xl={5} lg={5} sm={12} xs={12}>
@@ -423,8 +452,8 @@ export const ResumeScreen = () => {
                     </svg>
                   </Button>
                 </Row>
-                <Row className="date">Jul 2018 - Present</Row>
-                <Row className="edu_grade">CGPA: 9.43 as of 6th Semester</Row>
+                <Row className="date">Jul 2018 - April 2022</Row>
+                <Row className="edu_grade">CGPA: 9.5</Row>
               </Col>
 
               <Col className="section_content pb-4">
@@ -483,6 +512,31 @@ export const ResumeScreen = () => {
                 </Row>
                 <Row className="date">Jun 2015 - Apr 2016</Row>
                 <Row className="edu_grade">Percentage: 73%</Row>
+              </Col>
+
+              <Row className="section_title">Projects</Row>
+              <Col className="section_content pb-4">
+                <Row className="edu_title">
+                  All the projects developed my me
+                </Row>
+                <Row>
+                  Visit the projects.css page to view all my projects{" "}
+                  <Button href="/projects" className="external_link">
+                    <svg
+                      stroke="#fff"
+                      fill="none"
+                      strokeWidth="2"
+                      viewBox="0 0 24 24"
+                      height="1em"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                      <polyline points="15 3 21 3 21 9"></polyline>
+                      <line x1="10" y1="14" x2="21" y2="3"></line>
+                    </svg>
+                  </Button>
+                </Row>
               </Col>
 
               <Row className="section_title">Skills</Row>
