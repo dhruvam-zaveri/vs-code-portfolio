@@ -37,24 +37,25 @@ export const AboutMeScreen = () => {
             👋🏽 Hi, my name is Dhruvam.
           </Row>
           <Row className="py-2 about_me_page_text">
-            🎓 Student from Charotar University of Science and Technology
-            enrolled in B. Tech Computer Science and Engineering.
+            🎓 A computer science graduate student at University of Southern
+            California.
           </Row>
           <Row className="py-2 about_me_page_text">
             🌇 Vadodara Native, with a passion for developing innovative and
             creative projects.
           </Row>
           <Row className="py-2 about_me_page_text">
-            📚 Developed several projects using various technologies to widen my
-            knowledge and abilities.
+            📚 Developed myraid projects using multifarious technologies to
+            widen my knowledge as well as abilities.
           </Row>
           <Row className="py-2 about_me_page_text">
-            💻 Talking about my future, I hope to one day work as a Software
-            Development Engineer and work with a diverse team.
+            💻 Talking about my future, I dream to work as a Software Engineer
+            leading a team which can generate maximum profit for your
+            organization.
           </Row>
           <Row className="py-2 about_me_page_text">
             😄 In my time away from the screen, you can find me lost in melodies
-            or cracking jokes.
+            or cracking lame jokes.
           </Row>
           <Row className="py-2 about_me_page_text">
             👾 An avid emoji user, it is obvious from the usage here.

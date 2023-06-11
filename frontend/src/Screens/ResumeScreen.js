@@ -52,52 +52,6 @@ export const ResumeScreen = () => {
           xs="auto"
           className="px-3 d-none d-xl-block"
         ></Col>
-        {/* <Col
-          xl="auto"
-          lg="auto"
-          md="auto"
-          sm="auto"
-          xs="auto"
-          className="d-none d-sm-block"
-        >
-          <Row sm="auto" xs="auto" className="px-5 d-none d-sm-block"></Row>
-        </Col>
-        <Col
-          xl="auto"
-          lg="auto"
-          md="auto"
-          sm="auto"
-          xs="auto"
-          className="d-none d-sm-block"
-        >
-          <Row sm="auto" xs="auto" className="px-5 d-none d-md-block"></Row>
-        </Col>
-        <Col
-          xl="auto"
-          lg="auto"
-          md="auto"
-          sm="auto"
-          xs="auto"
-          className="d-none d-sm-block"
-        >
-          <Row sm="auto" xs="auto" className="px-1 d-none d-md-block"></Row>
-        </Col>
-        <Col
-          xl="auto"
-          lg="auto"
-          md="auto"
-          sm="auto"
-          xs="auto"
-          className="d-none d-sm-block d-md-none"
-        >
-          <Row sm="auto" xs="auto" className="px-1 d-none d-md-block"></Row>
-        </Col>
-        <Col xl="auto" lg="auto" md="auto" sm="auto" xs="auto">
-          <Row sm="auto" xs="auto" className="px-5 d-none d-lg-block"></Row>
-        </Col>
-        <Col xl="auto" lg="auto" md="auto" sm="auto" xs="auto">
-          <Row sm="auto" xs="auto" className="px-1 d-none d-lg-block"></Row>
-        </Col> */}
         <Col>
           <Col className="pt-3 pb-1 resume_page_title">RESUME</Col>
           <Col className="personal_statement">
@@ -135,14 +89,39 @@ export const ResumeScreen = () => {
                 <Row className="work_description p-0 m-0">
                   <ul>
                     <li>
-                      Improved container upgrade time by 20% in Product
-                      automation (DevOps) team.
+                      Delegated the project tasks and managed the storyboard.{" "}
+                      <b>(Cloud Infrastructure and Engineering team)</b>
+                    </li>
+
+                    <li>
+                      Led a team to develop a REST API for the cluster
+                      orchestration pipeline over microservice architecture.{" "}
+                      <b>(Cloud Infrastructure and Engineering team)</b>
+                    </li>
+
+                    <li>
+                      Automated cluster bootstrapping along with installation as
+                      well as modification of inter-pod communication service,
+                      internal load balancing via nginx, and external DNS as per
+                      partner's requirements.{" "}
+                      <b>(Cloud Infrastructure and Engineering team)</b>
+                    </li>
+
+                    <li>
+                      Managed to build and optimize the cluster resource
+                      architecture similar to one existing on Azure, on AWS.{" "}
+                      <b>(Cloud Infrastructure and Engineering team)</b>
+                    </li>
+
+                    <li>
+                      Developed the codebase to spin up, manage and deallocate
+                      multi-site K8s clusters as well as other supporting
+                      resources from various cloud providers like Azure and AWS.{" "}
+                      <b>(Cloud Infrastructure and Engineering team)</b>
                     </li>
                     <li>
-                      Developing an automated tool to spin up, manage and
-                      deallocate multi site K8s clusters as well as other
-                      supporting resources from multiple cloud providers like
-                      Azure and AWS (Cloud Infrastructure team).
+                      Improved container upgrade time by 20% for the.{" "}
+                      <b>(Product Automation team)</b>
                     </li>
                   </ul>
                 </Row>
@@ -177,23 +156,25 @@ export const ResumeScreen = () => {
                 <Row className="work_description p-0 m-0">
                   <ul>
                     <li>
-                      Optimized the architecture for an existing product
-                      consisting of 2 system modules as a part of Site
-                      Reliability team.
+                      Improved container launch time for fresh installation by
+                      25%. <b>(Product Automation team)</b>
                     </li>
+
+                    <li>
+                      Orchestrated server cluster configuration with multiple
+                      VMs as well as micro services configuration automation.{" "}
+                      <b>(Product Automation team)</b>
+                    </li>
+
                     <li>
                       Reduced subscriber provisioning time on one module
                       consisting of 7 subroutines of an existing product by
-                      120%.
+                      120%. <b>(Site Reliability Engineering team)</b>
                     </li>
                     <li>
-                      Orchestrated server cluster configuration with multiple
-                      VMs as well as micro services configuration automation as
-                      a part of the DevOps team.
-                    </li>
-                    <li>
-                      Improved container launch time for fresh installation by
-                      25% in Product automation (DevOps) team.
+                      Optimized the architecture for an existing product
+                      consisting of 2 system modules.{" "}
+                      <b>(Site Reliability Engineering team)</b>
                     </li>
                   </ul>
                 </Row>
