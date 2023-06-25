@@ -37,7 +37,7 @@ export const AboutMeScreen = () => {
             👋🏽 Hi, my name is Dhruvam.
           </Row>
           <Row className="py-2 about_me_page_text">
-            🎓 A computer science graduate student at University of Southern
+            🎓 A computer science graduate student at the University of Southern
             California.
           </Row>
           <Row className="py-2 about_me_page_text">
@@ -45,12 +45,12 @@ export const AboutMeScreen = () => {
             creative projects.
           </Row>
           <Row className="py-2 about_me_page_text">
-            📚 Developed myraid projects using multifarious technologies to
+            📚 Developed myriad projects using multifarious technologies to
             widen my knowledge as well as abilities.
           </Row>
           <Row className="py-2 about_me_page_text">
             💻 Talking about my future, I dream to work as a Software Engineer
-            leading a team which can generate maximum profit for your
+            leading a team that can generate maximum profit for your
             organization.
           </Row>
           <Row className="py-2 about_me_page_text">
