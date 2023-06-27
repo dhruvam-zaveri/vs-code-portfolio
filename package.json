@@ -18,7 +18,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "npm install && export NODE_OPTIONS=--openssl-legacy-provider && react-scripts build && rm -rvf node_modules",
+    "build": "npm install && react-scripts build && rm -rvf node_modules",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
