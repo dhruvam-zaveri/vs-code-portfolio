@@ -18,7 +18,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "npm install --production && react-scripts build && bash remove_large_modules.sh",
+    "build": "npm install --production && react-scripts build && rm -rf ./node_modules",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
