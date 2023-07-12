@@ -6,4 +6,5 @@ echo deleting $large_modules
 for module in ${large_modules[@]}
 do 
     rm -rvf $module
+    sleep 5s
 done
