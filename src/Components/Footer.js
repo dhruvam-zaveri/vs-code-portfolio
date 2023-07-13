@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Nav } from "react-bootstrap";
 import "../index.css";
 
 export const Footer = () => {
@@ -23,7 +23,7 @@ export const Footer = () => {
         className="py-1 pl-3 d-flex justify-content-end"
       >
         <Col xl="auto" lg="auto" md="auto" sm="auto" xs="auto" className="p-0">
-          All Rights Reserved © Copyright
+          All Rights Reserved © 
         </Col>
         <Col
           xl="auto"
@@ -33,7 +33,14 @@ export const Footer = () => {
           xs="auto"
           className="footer"
         >
-          Dhruvam Zaveri
+          <Nav.Link
+                        className="contact_subtitle"
+                        href="https://www.linkedin.com/in/dhruvam-zaveri/"
+                        target="_blank"
+                        style={{padding:0, color: '#FFFFFF'}}
+                      >
+                        Dhruvam Zaveri
+                      </Nav.Link>
         </Col>
       </Row>
     </Container>

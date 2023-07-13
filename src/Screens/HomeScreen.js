@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import { ReactComponent as SVGImage } from "../Components/SVG/Hello.svg";
-import Typewriter from "typewriter-effect";
+// import Typewriter from "typewriter-effect";
 import "./css/homepage.css";
 import "../index.css";
 
@@ -68,17 +68,17 @@ export const HomeScreen = () => {
                     xs="auto"
                     className="p-0 m-0 homepage_typewriter_text"
                   >
-                    A/An{" "}
+                 Developer ⬩ Innovator ⬩ Leader ⬩ Learner
                   </Col>
-                  <Col
+                  {/* <Col
                     xl="auto"
                     lg="auto"
                     md="auto"
                     sm="auto"
                     xs="auto"
                     className="pl-1 homepage_typewriter_text"
-                  >
-                    <Typewriter
+                  > */}
+                    {/* <Typewriter
                       options={{
                         strings: [
                           "Designer.",
@@ -90,8 +90,8 @@ export const HomeScreen = () => {
                         loop: true,
                         cursor: "_",
                       }}
-                    />
-                  </Col>
+                    /> */}
+                  {/* </Col> */}
                 </Row>
               </Container>
             </Col>

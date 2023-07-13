@@ -55,9 +55,14 @@ export const ResumeScreen = () => {
         <Col>
           <Col className="pt-3 pb-1 resume_page_title">RESUME</Col>
           <Col className="personal_statement">
-            An enthusiastic, confident, and passionate learner, always eager to
-            explore new areas for defining potential and enhance skills to gain
-            deeper knowledge and experience.
+            A versatile software engineer with a passion for leadership, seeking
+            a challenging role to leverage technical prowess and deliver
+            exceptional software solutions. Proficient at quickly adapting to
+            diverse technologies and environments, I excel with mentorship and
+            embrace new opportunities. Committed to continuous learning and
+            driving innovation, I aspire to make a meaningful impact by
+            optimizing processes, elevating organizational performance, and
+            staying at the forefront of technology trends.
           </Col>
           <Row className="py-2 content_row">
             <Col xl={7} lg={7} sm={12} xs={12}>
@@ -434,65 +439,7 @@ export const ResumeScreen = () => {
                   </Button>
                 </Row>
                 <Row className="date">Jul 2018 - April 2022</Row>
-                <Row className="edu_grade">CGPA: 9.5</Row>
-              </Col>
-
-              <Col className="section_content pb-4">
-                <Row className="edu_title">
-                  Higher Secondary Schooling (12th grade)
-                </Row>
-                <Row>
-                  Baroda High School, Alkapuri
-                  <Button
-                    href="https://www.barodahighschool.com/"
-                    className="external_link"
-                  >
-                    <svg
-                      stroke="#fff"
-                      fill="none"
-                      strokeWidth="2"
-                      viewBox="0 0 24 24"
-                      height="1em"
-                      width="1em"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-                      <polyline points="15 3 21 3 21 9"></polyline>
-                      <line x1="10" y1="14" x2="21" y2="3"></line>
-                    </svg>
-                  </Button>
-                </Row>
-                <Row className="date">Jun 2017 - Apr 2018</Row>
-                <Row className="edu_grade">Percentage: 75%</Row>
-              </Col>
-
-              <Col className="section_content pb-0">
-                <Row className="edu_title">
-                  Secondary Schooling (10th grade)
-                </Row>
-                <Row>
-                  Baroda High School, Alkapuri
-                  <Button
-                    href="https://www.barodahighschool.com/"
-                    className="external_link"
-                  >
-                    <svg
-                      stroke="#fff"
-                      fill="none"
-                      strokeWidth="2"
-                      viewBox="0 0 24 24"
-                      height="1em"
-                      width="1em"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-                      <polyline points="15 3 21 3 21 9"></polyline>
-                      <line x1="10" y1="14" x2="21" y2="3"></line>
-                    </svg>
-                  </Button>
-                </Row>
-                <Row className="date">Jun 2015 - Apr 2016</Row>
-                <Row className="edu_grade">Percentage: 73%</Row>
+                <Row className="edu_grade">CGPA: 9.5/10.0</Row>
               </Col>
 
               <Row className="section_title">Projects</Row>
@@ -523,9 +470,7 @@ export const ResumeScreen = () => {
               <Row className="section_title">Skills</Row>
 
               <Col className="section_content">
-                <Row className="edu_title">
-                  Verbal and non-verbal communication
-                </Row>
+                <Row className="edu_title">Leadership and Management</Row>
               </Col>
 
               <Col className="section_content">
@@ -547,6 +492,17 @@ export const ResumeScreen = () => {
                       <li>C</li>
                       <li>C++</li>
                       <li>Java</li>
+                    </ul>
+                  </Row>
+                </Row>
+              </Col>
+
+              <Col className="section_content">
+                <Row className="edu_title">Container orchestration</Row>
+                <Row>
+                  <Row className="skill p-0 m-0">
+                    <ul>
+                      <li>Kubernetes</li>
                     </ul>
                   </Row>
                 </Row>
@@ -611,6 +567,8 @@ export const ResumeScreen = () => {
                   <Row className="skill p-0 m-0">
                     <ul>
                       <li>MongoDB</li>
+                      <li>Postgres</li>
+                      <li>MySQL</li>
                       <li>CouchDB</li>
                       <li>Firebase</li>
                     </ul>

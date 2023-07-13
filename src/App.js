@@ -9,7 +9,7 @@ import SideBar from "./Components/SideBar.js";
 import FilesBar from "./Components/FilesBar.js";
 import "./index.css";
 
-const Loading = () => <div>Loading...</div>;
+const Loading = () => <div>Test Loading...</div>;
 const AsyncHomeScreen = Loadable({
   loader: () => import("./Screens/HomeScreen.js"),
   loading: Loading,
