@@ -6,8 +6,8 @@
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
-    "typewriter-effect": "^2.18.0"
-
+    "typewriter-effect": "^2.18.0",
+    "stable": "^0.1.8"
   },
   "dependencies": {
     "react": "^17.0.2",
@@ -21,7 +21,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && rm -rf ./node_modules",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
