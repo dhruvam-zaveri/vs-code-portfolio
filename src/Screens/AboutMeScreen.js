@@ -37,25 +37,20 @@ export const AboutMeScreen = () => {
             👋🏽 Hi, my name is Dhruvam.
           </Row>
           <Row className="py-2 about_me_page_text">
-            🎓 A computer science graduate student at the University of Southern
-            California.
+            🎓 A graduate student of computer science at the University of Southern California.
           </Row>
           <Row className="py-2 about_me_page_text">
-            🌇 Vadodara Native, with a passion for developing innovative and
-            creative projects.
+            📚 As a dynamic professional, I've consistently refined my managing abilities while broadening my technological knowledge. I've orchestrated optimal as well as deployable solutions for applications such as multi-cloud cluster management, automated machine learning, and diverse commercial mobile apps generating efficiency improvements while leading and mentoring teams. Collaborating cross-functionally, I led container installation and updates, subscriber provisioning, and the development of a Python library for company-managed AWS cluster administration, demonstrating effective collaboration. My strategic problem-solving is reflected in the streamlining of architectures and the acceleration of processes.
           </Row>
           <Row className="py-2 about_me_page_text">
-            📚 Developed myriad projects using multifarious technologies to
-            widen my knowledge as well as abilities.
-          </Row>
-          <Row className="py-2 about_me_page_text">
-            💻 Talking about my future, I dream to work as a Software Engineer
-            leading a team that can generate maximum profit for your
-            organization.
+            💻 Talking about the future, I aspire to lead as a technical or product manager, working alongside skilled teams to develop high-revenue products that cater to business and client needs. Through strategic leadership, I aim to drive innovation and ensure organizational success.
           </Row>
           <Row className="py-2 about_me_page_text">
             😄 In my time away from the screen, you can find me lost in melodies
             or cracking lame jokes.
+          </Row>
+          <Row className="py-2 about_me_page_text">
+          💪🏽 I specialize in project management, python based development, kubernetes, and cloud platforms like AWS and Microsoft Azure.
           </Row>
           <Row className="py-2 about_me_page_text">
             👾 An avid emoji user, it is obvious from the usage here.
