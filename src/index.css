@@ -73,9 +73,7 @@ button:focus {
   .files_bar_menu {
     height: inherit;
   }
-  .main_content_height {
-    height: 92vh;
-  }
+  
 }
 
 /* About me page */

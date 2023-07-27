@@ -7,6 +7,7 @@
   font-weight: bold;
   font-size: 2rem;
   text-align: center;
+  margin-top: 0px;
 }
 
 .about_me_page_text {
@@ -14,9 +15,9 @@
   font-size: 1.1rem;
 }
 
-.content_col {
+/* .content_col {
   width: inherit;
-}
+} */
 /* Tablet View */
 @media screen and (max-width: 991px) and (min-width: 768px) {
   .page_content_alignment {
@@ -24,7 +25,7 @@
     padding-right: 0px;
   }
   .about_me_page_title {
-    font-size: 1.35rem;
+    font-size: 1.30rem;
   }
   .about_me_page_text {
     font-size: 0.9rem;
@@ -36,7 +37,7 @@
     padding-left: 40px;
   }
   .about_me_page_title {
-    font-size: 1.25rem;
+    font-size: 1.20rem;
   }
   .about_me_page_text {
     font-size: 0.8rem;
@@ -47,6 +48,10 @@
   /* .content_col {
     width: 80vw;
   } */
+  .about_me_page_title {
+    font-size: 1.15rem;
+    margin-top: 60px;
+  }
 }
 
 @media screen and (max-width: 576) {
@@ -69,7 +74,8 @@
   }
 
   .about_me_page_title {
-    font-size: 1.15rem;
+    font-size: 1.10rem;
+    margin-top: 200px;
   }
 
   .about_me_page_text {
@@ -77,8 +83,19 @@
   }
 }
 
+@media screen and (max-width: 424px) {
+  .about_me_page_title {
+    font-size: 1.05rem;
+    margin-top: 300px;
+  }
+}
+
 @media screen and (max-width: 321px) {
   .page_content_alignment {
     padding-left: 10px;
+  }
+  .about_me_page_title {
+    font-size: 1.05rem;
+    margin-top: 550px;
   }
 }
