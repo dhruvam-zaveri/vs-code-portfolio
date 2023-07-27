@@ -75,7 +75,7 @@
 
   .about_me_page_title {
     font-size: 1.10rem;
-    margin-top: 200px;
+    margin-top: 100px;
   }
 
   .about_me_page_text {
@@ -86,7 +86,7 @@
 @media screen and (max-width: 424px) {
   .about_me_page_title {
     font-size: 1.05rem;
-    margin-top: 300px;
+    margin-top: 150px;
   }
 }
 
